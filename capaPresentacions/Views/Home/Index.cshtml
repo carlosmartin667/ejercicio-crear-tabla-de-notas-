@@ -1,0 +1,82 @@
+@{
+  ViewData["Title"] = "Home Page";
+}
+
+
+
+<div id="app" class="grid">
+  <h1>notas de alumnos</h1>
+  <hr>
+  <h2 class="text-primary">agregar alumnos: </h2>
+  <form v-on:submit.prevent="addUser">
+    <input type="text" v-model="newUser.name" placeholder="Nombre" required>
+    <input type="number" v-model="newUser.nota" placeholder="Nota" required>
+    <button type="submit" class="btn">agregar</button>
+  </form>
+
+  <hr>
+  <h2 class="text-success"> aprobados</h2>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th type="button">Nombre</th>
+        <th>Nota</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="alumno in aprobados">
+        <td>{{ alumno.name }}</td>
+        <td>{{ alumno.nota }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h2 class="text-danger"> desaprobados</h2>
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Nota</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="alumno in desaprobados">
+        <td>{{ alumno.name }}</td>
+        <td>{{ alumno.nota }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <div class="container jumbotron">
+    <p>notas:</p>
+    <div class="col-sm-6">
+      <p>alumnos con 1 :</p>
+      <p>alumnos con 2 :</p>
+      <p>alumnos con 3 :</p>
+      <p>alumnos con 4 :</p>
+      <p>alumnos con 5 :</p>
+    </div>
+    <div class="col-sm-6">
+      <p>alumnos con 6 :</p>
+      <p>alumnos con 7 :</p>
+      <p>alumnos con 8 :</p>
+      <p>alumnos con 9 :</p>
+      <p>alumnos con 10 :</p>
+      </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.js"></script>
+
+
+  </div>
+
+  @*<link href="~/css/tabla.css" rel="stylesheet" />*@
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="~/js/JavaScript.js"></script>
