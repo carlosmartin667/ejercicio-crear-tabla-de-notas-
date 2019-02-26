@@ -1,74 +1,104 @@
+
+//function datosTextos() {
+//  textos = "CONTENIDO_TABLA";
+//  for (var i = 0; i < document.getElementById('TablaDatos').rows.length - 1; i++) {
+//    for (var j = 0; j < 4; j++) {
+//      textos = textos + document.getElementById('TablaDatos').rows[i].cells[j].innerHTML + " -> ";
+//    }
+//  }
+//  alert(textos);
+//}
+
+
+
 const app = new Vue({
   data: () => ({
 
     consonantes: [],
     vocales: [],
-    newUser: { name: '' }
+    newUser: "",
+    names: [
+     " Alberto",
+      "Juana" ,
+      "Eliana" ,
+      "Pedro",
+      "Ezquiel ",
+      "Ruben" ,
+      "Mario",
+      "Alejandro",
+      "Priscila ",
+      "Eugenio ",
+      "Leandro" ,
+      "Mario " ,
+      "Sebastian"           
+    ]
   }),
 
 
 
   methods: {
     addUser: function () {
-      let name = this.newUser.name.trim().toLowerCase();
+      let name = this.newUser.trim().toLowerCase();
 
-      if (name ) {
+      this.names.push(name);
+
+      //if (name ) {
 
      
 
-        if (name < 6) {
-          this.vocales.push({
-            name: name
+      //  if (name < 6) {
+      //    this.vocales.push({
+      //      name: name
            
-          });
+      //    });
 
-        }
-        else {
-          this.consonantes.push({
-            name: name
+      //  }
+      //  else {
+      //    this.consonantes.push({
+      //      name: name
            
-          });
-        }
-      }
-      this.newUser.name = this.newUser.name = '';
+      //    });
+      //  }
+      //}
+      this.newUser.name = this.newUser.names = '';
 
-      this.vocales = this.OrdenarListas(this.vocales);
+      //this.vocales = this.OrdenarListas(this.vocales);
 
-      this.consonantes = this.OrdenarListas(this.consonantes);
-
-
-    },
+      //this.consonantes = this.OrdenarListas(this.consonantes);
 
 
-    OrdenarListas: function (lista) {
-      lista = lista.sort(function (a, b) {
-        if (a.name > b.name) {
-          return 1;
-        }
-        if (a.name < b.name) {
-          return -1;
-        }
-
-        return 0;
-      });
-
-      return lista;
-    },
-
-    OrdenarListas2: function (lista) {
-      lista = lista.sort(function (a, b) {
-        if (a.name < b.name) {
-          return 1;
-        }
-        if (a.name > b.name) {
-          return -1;
-        }
-
-        return 0;
-      });
-
-      return lista;
     }
+
+
+    //OrdenarListas: function (lista) {
+    //  lista = lista.sort(function (a, b) {
+    //    if (a.name > b.name) {
+    //      return 1;
+    //    }
+    //    if (a.name < b.name) {
+    //      return -1;
+    //    }
+
+    //    return 0;
+    //  });
+
+    //  return lista;
+    //},
+
+    //OrdenarListas2: function (lista) {
+    //  lista = lista.sort(function (a, b) {
+    //    if (a.name < b.name) {
+    //      return 1;
+    //    }
+    //    if (a.name > b.name) {
+    //      return -1;
+    //    }
+
+    //    return 0;
+    //  });
+
+    //  return lista;
+    //}
   }
 
 }).$mount('#app');
