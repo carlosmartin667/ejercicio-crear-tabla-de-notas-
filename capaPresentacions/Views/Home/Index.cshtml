@@ -9,8 +9,8 @@
   <hr>
   <h2 class="text-primary">agregar alumnos: </h2>
   <form v-on:submit.prevent="addUser">
-    <input type="text" v-model="newUser.name" placeholder="Nombre" required>
-    <input type="number" v-model="newUser.nota" placeholder="Nota" required>
+    <input type="text" maxlength="25"v-model="newUser.name" placeholder="Nombre" required>
+    <input type="number" min="1" max="10" v-model="newUser.nota" placeholder="Nota" required>
     <button type="submit" class="btn">agregar</button>
   </form>
 
@@ -20,7 +20,7 @@
   <table class="table table-dark table-striped">
     <thead>
       <tr>
-        <th type="button">Nombre</th>
+        <th >Nombre</th>
         <th>Nota</th>
       </tr>
     </thead>
@@ -41,6 +41,7 @@
       </tr>
     </thead>
     <tbody>
+
       <tr v-for="alumno in desaprobados">
         <td>{{ alumno.name }}</td>
         <td>{{ alumno.nota }}</td>
@@ -50,33 +51,30 @@
   <hr />
   <div class="container jumbotron">
     <p>notas:</p>
-    <div class="col-sm-6">
-      <p>alumnos con 1 :</p>
-      <p>alumnos con 2 :</p>
-      <p>alumnos con 3 :</p>
-      <p>alumnos con 4 :</p>
-      <p>alumnos con 5 :</p>
-    </div>
-    <div class="col-sm-6">
-      <p>alumnos con 6 :</p>
-      <p>alumnos con 7 :</p>
-      <p>alumnos con 8 :</p>
-      <p>alumnos con 9 :</p>
-      <p>alumnos con 10 :</p>
-      </div>
-    </div>
+
+    <p>alumnos con 1 : {{contador1}}</p>
+    <p>alumnos con 2 :  {{contador2}}</p>
+    <p>alumnos con 3 : {{contador3}}</p>
+    <p>alumnos con 4 : {{contador4}}</p>
+    <p>alumnos con 5 : {{contador5}}</p>
+    <p>alumnos con 6 : {{contador6}}</p>
+    <p>alumnos con 7 : {{contador7}}</p>
+    <p>alumnos con 8 : {{contador8}}</p>
+    <p>alumnos con 9 : {{contador9}}</p>
+    <p>alumnos con 10 : {{contador10}}</p>
+  </div>
 
 
 
 
 
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="jquery.tablesorter.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.js"></script>
 
 
   </div>
 
-  @*<link href="~/css/tabla.css" rel="stylesheet" />*@
+@*<link href="~/css/tabla.css" rel="stylesheet" />*@
 
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <script src="~/js/JavaScript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="~/js/JavaScript.js"></script>

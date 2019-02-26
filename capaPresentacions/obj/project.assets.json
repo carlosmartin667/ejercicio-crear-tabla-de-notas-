@@ -12993,11 +12993,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carloscornejo\\source\\repos\\CursoMVC\\capaPresentacions\\capaPresentacions.csproj",
+      "projectUniqueName": "C:\\Users\\carloscornejo\\Desktop\\tarea\\capaPresentacions\\capaPresentacions.csproj",
       "projectName": "capaPresentacions",
-      "projectPath": "C:\\Users\\carloscornejo\\source\\repos\\CursoMVC\\capaPresentacions\\capaPresentacions.csproj",
+      "projectPath": "C:\\Users\\carloscornejo\\Desktop\\tarea\\capaPresentacions\\capaPresentacions.csproj",
       "packagesPath": "C:\\Users\\carloscornejo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carloscornejo\\source\\repos\\CursoMVC\\capaPresentacions\\obj\\",
+      "outputPath": "C:\\Users\\carloscornejo\\Desktop\\tarea\\capaPresentacions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
