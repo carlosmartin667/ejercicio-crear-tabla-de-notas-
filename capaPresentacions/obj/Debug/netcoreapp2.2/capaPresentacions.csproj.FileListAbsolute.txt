@@ -56,3 +56,4 @@ C:\Users\carloscornejo\Desktop\tarea\capaPresentacions\obj\Debug\netcoreapp2.2\c
 C:\Users\carloscornejo\Desktop\tarea\capaPresentacions\obj\Debug\netcoreapp2.2\capaPresentacions.dll
 C:\Users\carloscornejo\Desktop\tarea\capaPresentacions\obj\Debug\netcoreapp2.2\capaPresentacions.pdb
 C:\Users\carloscornejo\Desktop\tarea\capaPresentacions\obj\Debug\netcoreapp2.2\capaPresentacions.csproj.CopyComplete
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacions\obj\Debug\netcoreapp2.2\Razor\Views\Tarea2\Index.g.cshtml.cs

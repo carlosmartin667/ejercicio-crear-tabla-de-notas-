@@ -73,6 +73,7 @@ const app = new Vue({
       this.newUser.name = this.newUser.nota = '';
 
       this.desaprobados = this.OrdenarListas(this.desaprobados);
+
       this.aprobados = this.OrdenarListas(this.aprobados);
 
 

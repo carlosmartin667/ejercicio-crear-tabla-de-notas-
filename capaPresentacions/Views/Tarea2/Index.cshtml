@@ -1,0 +1,190 @@
+
+@{
+  ViewData["Title"] = "Index";
+}
+
+
+<div id="app" class="grid">
+  <h1>notas de alumnos</h1>
+  <hr>
+  <h2 class="text-primary">agregar nombre: </h2>
+  <form v-on:submit.prevent="addUser">
+    <input type="text" maxlength="25" v-model="newUser.name" placeholder="Nombre" required>
+    <button type="submit" class="btn">agregar</button>
+  </form>
+
+  <hr>
+  <h1>lista de nombres </h1>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="name ">
+        <td>Alberto</td>
+        <td>Juana</td>
+        <td>Juana</td>
+        <td>Eliana</td>
+        <td>Pedro</td>
+        <td>Ezquiel</td>
+        <td>Ruben</td>
+        <td>Mario</td>
+        <td>Alejandro</td>
+        <td>Priscila</td>
+        <td>Eugenio</td>
+        <td>Leandro</td>
+        <td>Mario</td>
+        <td>Sebastian</td>
+        <td>Bruno</td>
+        <td>{{name}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr />
+  <h2>lista de nombre ordena </h2>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="name">
+        <td>{{name}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h3>lista de nombre que empiesa con consonantes </h3>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre que empiza con consonantes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="consonantes">
+        <td>{{name.consonantes}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>lista de nombre que empiesa con vocales </h3>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre que empieza con vocales</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="vocales">
+        <td>{{vocales.name}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <!--lista ordenas inversamente-->
+  <h2 class="text-success">lista de nombre ordena inversamente</h2>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="name">
+        <td>{{name}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h3 class="text-success">lista de nombre que empiesa con consonantes inversamente </h3>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre que empiza con consonantes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="consonantes">
+        <td>{{name.consonantes}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="text-success">lista de nombre que empiesa con vocales inversamente</h3>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre que empieza con vocales</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="vocales">
+        <td>{{vocales.name}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!--lista con los nombre del texto invertido-->
+  <hr />
+  <h2 class="text-danger">lista de nombre ordena invertido</h2>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="name">
+        <td>{{name}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h3 class="text-danger">lista de nombre que empiesa con consonantes invertido </h3>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre que empiza con consonantes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="consonantes">
+        <td>{{name.consonantes}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="text-danger">lista de nombre que empiesa con vocales invertido</h3>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre que empieza con vocales</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="vocales">
+        <td>{{vocales.name}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="~/js/ordenarNombre.js"></script>
