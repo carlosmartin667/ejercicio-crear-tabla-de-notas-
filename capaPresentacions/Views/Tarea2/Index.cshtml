@@ -5,15 +5,17 @@
 
 
 <div id="app" class="grid">
+  <!--comienzo para agregar nombres-->
   <h1>notas de alumnos</h1>
   <hr>
   <h2 class="text-primary">agregar nombre: </h2>
 
   <input type="text" maxlength="25" v-model="newUser" placeholder="Nombre" required>
   <button type="button" v-on:click="addUser()" class="btn">agregar</button>
-
+  <!--fin-->
 
   <hr>
+
   <h1>lista de nombres </h1>
 
   <table class="table table-dark table-striped">
@@ -45,6 +47,7 @@
       </tr>
     </tbody>
   </table>
+  <hr />
 
   <h2>lista de nombre con consonantes </h2>
 
@@ -61,6 +64,8 @@
     </tbody>
   </table>
 
+  <hr />
+
   <h2>lista de nombre con vocales arodenadas asendentemente </h2>
 
   <table class="table table-dark table-striped">
@@ -76,6 +81,7 @@
     </tbody>
   </table>
 
+  <hr />
   <h2>lista de nombre con vocales arodenadas Desedente </h2>
 
   <table class="table table-dark table-striped">
@@ -90,7 +96,7 @@
       </tr>
     </tbody>
   </table>
-
+  <hr />
   <h2>lista de nombre con consonantes arodenadas desedente </h2>
 
   <table class="table table-dark table-striped">
@@ -121,6 +127,37 @@
     </tbody>
   </table>
 
+  <h1>nombe de personas que empieza con bocales escritas al rebes</h1>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="name in vocalesReversa">
+        <td>{{name}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+
+  <h1>nombe de personas que empieza con consonantes escritas al rebes</h1>
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="name in consonantesReversa">
+        <td>{{name}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
 
 </div>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>

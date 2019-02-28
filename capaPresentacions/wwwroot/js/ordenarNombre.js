@@ -6,6 +6,8 @@ const app = new Vue({
     vocalesDescendentes: [],
     consonantesAscendentes: [],
     consonantesDescendentes: [],
+    vocalesReversa: [],
+    consonantesReversa: [],
     newUser: "",
     names: [
    
@@ -26,10 +28,14 @@ const app = new Vue({
         this.vocales.push(name);
         var listaVocalesAscendenteAux = [];
         var listaVocalesDescendenteAux = [];
+        this.vocalesReversa.push(reverse(name));
+        this.consonantesReversa.push(reverse(name));
 
         for (var i = 0; i < this.vocales.length; i++) {
           listaVocalesAscendenteAux.push(this.vocales[i]);
           listaVocalesDescendenteAux.push(this.vocales[i]);
+          
+
         }
         this.vocalesAscendentes = this.OrdenarListasAsedente(listaVocalesAscendenteAux);
         this.vocalesDescendentes = this.OrdenarListasDesendente(listaVocalesDescendenteAux);
@@ -48,6 +54,9 @@ const app = new Vue({
         this.consonantesAscendentes = this.OrdenarListasAsedente(listaConsonantesAscendenteAux);
         this.consonantesDescendentes = this.OrdenarListasDesendente(listaConsonantesDescendenteAux);
       }
+
+      
+
     },
 
 
@@ -78,3 +87,11 @@ const app = new Vue({
     }
   }
 }).$mount('#app');
+
+
+function reverse(s) {
+  var o = '';
+  for (var l = s.length - 1; l >= 0; l--)
+    o += s[l];
+  return o;
+}
