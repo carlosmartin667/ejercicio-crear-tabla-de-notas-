@@ -54,9 +54,6 @@ const app = new Vue({
         this.consonantesAscendentes = this.OrdenarListasAsedente(listaConsonantesAscendenteAux);
         this.consonantesDescendentes = this.OrdenarListasDesendente(listaConsonantesDescendenteAux);
       }
-
-      
-
     },
 
 

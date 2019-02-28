@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionDosConsola\bin\Debug\capaPresentacionDosConsola.exe.config
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionDosConsola\bin\Debug\capaPresentacionDosConsola.exe
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionDosConsola\bin\Debug\capaPresentacionDosConsola.pdb
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionDosConsola\obj\Debug\capaPresentacionDosConsola.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionDosConsola\obj\Debug\capaPresentacionDosConsola.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionDosConsola\obj\Debug\capaPresentacionDosConsola.exe
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionDosConsola\obj\Debug\capaPresentacionDosConsola.pdb
