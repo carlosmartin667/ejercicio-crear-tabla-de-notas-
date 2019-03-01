@@ -13,9 +13,9 @@ namespace ConsoleApplication15
             string resp = "";
             do
             {
-   int     res = 0;
-        int Sumar = 0;
 
+        int Sumar = 0;
+        var resto = 0;
       
         int valor1 = 0; //Aqui se almacenara el primer valor ingresado.
                 int valor2 = 0; //Aqui se almacenara el segundo valor ingresado.
@@ -46,15 +46,28 @@ namespace ConsoleApplication15
                         Console.WriteLine("{0} + {1} = {2}", valor1, valor2, R);
                         break;
                     case "2":
-                        Console.WriteLine("El resultado de la resta es:" );
-            for (int res = 0; res < valor1; ++res) 
+
+            if (valor1 > valor2)
             {
-            res=  ++valor2;
+              for (int res = valor2; res < valor1; res++)
+              {
+                resto++;
+              }
+              Console.WriteLine("El resultado de la resta es: ");
+              Console.WriteLine(resto);
             }
-            Console.WriteLine(res);
-                        break;
+            else
+            {
+              for (int res = valor1; res < valor2; res++)
+              {
+                resto++;
+              }
+              Console.WriteLine("El resultado de la resta es: ");
+              Console.WriteLine("-"+resto);
+            }
+            break;
                     case "3":
-                        Console.WriteLine("El resultado de la multiplicacion es:");
+                        Console.WriteLine("El resultado de la multiplicacion es:-");
 
          
             for (int k = 0; k < valor2; ++k)
@@ -70,6 +83,20 @@ namespace ConsoleApplication15
                         Console.WriteLine("El resultado de la division es:");
                         R = valor1 / valor2;
                         Console.WriteLine("{0} / {1} = {2}", valor1, valor2, R);
+            //        HASTA QUE valor1 > 0 AND valor2> 0
+
+            //Repetir
+            //    C = valor1 - valor2
+
+            //    valor1 = C
+
+            //    I = I + 1
+
+            //Hasta Que C < valor2
+            //Console.WriteLine("resultado"+I);
+            //IMPRIMO I, "RESULTADO"
+            //Console.WriteLine("RESTO ENTERO"+valor1);
+    //IMPRIMO valor1, "RESTO ENTERO"
                         break;
                 }
                 Console.Write("n¿Desea Continuar? s/n: "); //Si para realizarlo de nuevo y no para salir.
