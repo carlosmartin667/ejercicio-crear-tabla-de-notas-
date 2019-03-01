@@ -13,6 +13,7 @@ namespace ConsoleApplication15
             string resp = "";
             do
             {
+        int resta = 0;
 
         int Sumar = 0;
         var resto = 0;
@@ -47,7 +48,7 @@ namespace ConsoleApplication15
                         break;
                     case "2":
 
-            if (valor1 > valor2)
+            if (valor1 >= valor2)
             {
               for (int res = valor2; res < valor1; res++)
               {
@@ -80,24 +81,15 @@ namespace ConsoleApplication15
 
             break;
                     case "4":
-                        Console.WriteLine("El resultado de la division es:");
-                        R = valor1 / valor2;
-                        Console.WriteLine("{0} / {1} = {2}", valor1, valor2, R);
-            //        HASTA QUE valor1 > 0 AND valor2> 0
+          
+            for (int i = 0; i < valor1; i=i+valor2 )
 
-            //Repetir
-            //    C = valor1 - valor2
-
-            //    valor1 = C
-
-            //    I = I + 1
-
-            //Hasta Que C < valor2
-            //Console.WriteLine("resultado"+I);
-            //IMPRIMO I, "RESULTADO"
-            //Console.WriteLine("RESTO ENTERO"+valor1);
-    //IMPRIMO valor1, "RESTO ENTERO"
-                        break;
+            {
+              resta++;
+            }
+            Console.WriteLine(resta);
+      
+            break;
                 }
                 Console.Write("n¿Desea Continuar? s/n: "); //Si para realizarlo de nuevo y no para salir.
                 resp = Console.ReadLine();
