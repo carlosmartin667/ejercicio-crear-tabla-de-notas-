@@ -23,17 +23,19 @@ namespace Calculadora
     {
       return Numero1 + Numero2;
     }
-    public int Restar()
+   
+    public string Restar()
     {
-
       if (Numero1 >= Numero2)
+
       {
         for (int res = Numero2; res < Numero1; res++)
         {
           resto++;
         }
-
+        return resto.ToString();
       }
+
       else
       {
         for (int res = Numero1; res < Numero2; res++)
@@ -41,10 +43,14 @@ namespace Calculadora
           resto++;
         }
 
+        return "-" + resto;
       }
-      return resto;
+
+
+
+
     }
-  
+
     public double Multiplicar()
     {
       for (int k = 0; k < Numero2; ++k)
