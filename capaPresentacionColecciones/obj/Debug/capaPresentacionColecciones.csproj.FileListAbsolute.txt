@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionColecciones\bin\Debug\capaPresentacionColecciones.exe.config
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionColecciones\bin\Debug\capaPresentacionColecciones.exe
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionColecciones\bin\Debug\capaPresentacionColecciones.pdb
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionColecciones\obj\Debug\capaPresentacionColecciones.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionColecciones\obj\Debug\capaPresentacionColecciones.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionColecciones\obj\Debug\capaPresentacionColecciones.exe
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionColecciones\obj\Debug\capaPresentacionColecciones.pdb
