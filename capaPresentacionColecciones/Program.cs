@@ -4,59 +4,123 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace capaPresentacionColecciones
+namespace Ejercicio5
 {
   class Program
   {
     static void Main(string[] args)
     {
-      int[] cadena1 = new int[5] { 1 , 2 , 3 , 4 , 5};
-      int[] cadena2 = new int[5] { 10, 20, 30, 40, 50 };
-      int[] cadena3 = new int[5] { 100, 200, 300, 400, 500 };
+      int[] cadena1 = new int[7] { 1, 2, 3, 4, 5, 6, 7 };
+      int[] cadena2 = new int[4] { 20, 30, 40, 50 };
+      int[] cadena3 = new int[8] { 100, 200, 300, 400, 500, 600, 700, 800 };
 
-      Console.WriteLine("coleccion de numeros: ");
+      int menor = 0;
 
-      Console.WriteLine("coleccion de numeros de 1 digito:");
-    
-      foreach (int num in cadena1)
+      Console.Write("C1: [");
+      foreach (var num in cadena1)
       {
-        Console.WriteLine("{0}", num);
+        Console.Write(num + " ");
+      }
+      Console.WriteLine("]");
+
+      Console.Write("C2: [");
+      foreach (var num in cadena2)
+      {
+        Console.Write(num + " ");
+      }
+      Console.WriteLine("]");
+
+      Console.Write("C3: [");
+      foreach (var num in cadena3)
+      {
+        Console.Write(num + " ");
+      }
+      Console.WriteLine("]");
+
+      if (menor == 0)
+      {
+        if (cadena1.Length <= cadena2.Length)
+        {
+          menor = cadena1.Length;
+        }
+        else
+        {
+          menor = cadena2.Length;
+        }
+
+        if (cadena3.Length < menor)
+        {
+          menor = cadena3.Length;
+        }
       }
 
-      Console.WriteLine("coleccion de numeros de 2 digito:");
- 
-      foreach (int num in cadena2)
+      int[,] arr4 = new int[menor, 3];
+      for (int i = 0; i < menor; i++)
       {
-        Console.WriteLine("{0}", num);
-      }
-      Console.WriteLine("coleccion de numeros de 3 digito:");
-    
-      foreach (int num in cadena3)
-      {
-        Console.WriteLine("{0}", num);
-      }
+        for (int j = 0; j < 3; j++)
+        {
      
-      Console.WriteLine("combinacion:");
+ 
+          switch (j)
+          {
+            case 0:
+              {
+                arr4[i, j] = cadena1[i];           
+              }
+              break;
+            case 1:
+              {
+                arr4[i, j] = cadena2[i];
+              }
+              break;
+            case 2:
+              {
+                arr4[i, j] = cadena3[i];
+              }
+              break;
+            default:
 
-      //for (int i = 0; i < 3; i++)
-      //{
-      //  Console.WriteLine(cadena1[0] + "-" + cadena2[2] + "-" + cadena3 [4]);
-      //}
-      Console.WriteLine("lista de convinacion: " + cadena1[0] + "-" + cadena2[1] + "-" + cadena3[4]);
-      Console.WriteLine("lista de convinacion: " + cadena1[1] + "-" + cadena2[2] + "-" + cadena3[2]);
-      Console.WriteLine("lista de convinacion: " + cadena1[4] + "-" + cadena2[0] + "-" + cadena3[3]);
+              break;
+          }
 
+        }
 
-      Console.WriteLine("numeros de 1 digito sin  cobinar:");
-      Console.WriteLine(/*cadena1[1] + "-"+ cadena1[2] +"-"+*/ cadena1[3] +"-"+ cadena1[2]  );
-      Console.WriteLine("numeros de 2 digito sin cobinar:");
-      Console.WriteLine(/*cadena2[1] + "-" + cadena2[0] + "-" +*/ cadena2[3] + "-" + cadena2[4] );
-      Console.WriteLine("numeros de 3 digito sin cobinar:");
-      Console.WriteLine(cadena3[1] + "-" /*+ cadena3[2] + "-" + cadena3[3] + "-"*/ + cadena3[0] );
+      }
+      Console.WriteLine();
+      Console.WriteLine("Combinacion: ");
+      for (int i = 0; i < menor; i++)
+      {
+        for (int j = 0; j < 3; j++)
+        {
+          Console.Write(arr4[i, j] + " ");
+        }
+        Console.WriteLine();
+      }
 
       Console.WriteLine();
+      Console.Write("C1 sin combinar: [");
+      for (int i = menor; i < cadena1.Length; i++)
+      {
+        Console.Write(cadena1[i] + " ");
+      }
+      Console.WriteLine("]");
+
+      Console.WriteLine();
+      Console.Write("C2 sin combinar: [");
+      for (int i = menor; i < cadena2.Length; i++)
+      {
+        Console.Write(cadena2[i] + " ");
+      }
+      Console.WriteLine("]");
+
+      Console.WriteLine();
+      Console.Write("C3 sin combinar: [");
+      for (int i = menor; i < cadena3.Length; i++)
+      {
+        Console.Write(cadena3[i] + " ");
+      }
+      Console.WriteLine("]");
+      Console.ReadKey();
     }
-
-
   }
 }
