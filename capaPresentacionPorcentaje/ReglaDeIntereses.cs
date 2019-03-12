@@ -8,6 +8,8 @@ namespace capaPresentacionPorcentaje
 {
   class ReglaDeIntereses
   {
+
+
     private int _valor1;
     public int valor1
     {

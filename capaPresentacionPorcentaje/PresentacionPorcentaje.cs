@@ -28,7 +28,7 @@ namespace capaPresentacionPorcentaje
       {
         ReglaDeIntereses ReglaDeIntereses = new ReglaDeIntereses();//Intanciar la clase
 
-      
+        int[,] dfghj = new int[5, 5];
       
         //ReglaDeIntereses.valor1 = int.Parse(Console.ReadLine());//Leer numero ingresado
         int valor1 = 10000;
@@ -37,36 +37,40 @@ namespace capaPresentacionPorcentaje
    
 
 
-        if (opcion.Equals("1"))
-        {
+      //  if (opcion.Equals("1"))
+      //  {
 
-          Console.WriteLine("valor del comprobante :" + ReglaDeIntereses.sinInteres());
-        }
-        if (opcion.Equals("2"))
-        {
-          Console.WriteLine("valor del comprobante  (15 dias despues de vencer ) :" + ReglaDeIntereses.interes1());
-        }
-        if (opcion.Equals("3"))
-        {
-          Console.WriteLine("valor del comprobante  (30 dias despues de vencer )" + ReglaDeIntereses.interes2());
-        }
-        if (opcion.Equals("4"))
-        {
-          Console.WriteLine("valor del comprobante  (45 dias despues de vencer )" + ReglaDeIntereses.interes3());
-        }
-        if (opcion.Equals("5"))
-        {
-          Console.WriteLine("valor del comprobante  (60 dias despues de vencer )" + ReglaDeIntereses.interes4());
-        }
-      }
+      //    Console.WriteLine("valor del comprobante :" + ReglaDeIntereses.sinInteres());
+      //  }
+      //  if (opcion.Equals("2"))
+      //  {
+      //    Console.WriteLine("valor del comprobante  (15 dias despues de vencer ) :" + ReglaDeIntereses.interes1());
+      //  }
+      //  if (opcion.Equals("3"))
+      //  {
+      //    Console.WriteLine("valor del comprobante  (30 dias despues de vencer )" + ReglaDeIntereses.interes2());
+      //  }
+      //  if (opcion.Equals("4"))
+      //  {
+      //    Console.WriteLine("valor del comprobante  (45 dias despues de vencer )" + ReglaDeIntereses.interes3());
+      //  }
+      //  if (opcion.Equals("5"))
+      //  {
+      //    Console.WriteLine("valor del comprobante  (60 dias despues de vencer )" + ReglaDeIntereses.interes4());
+      //  }
+      //}
 
-      Console.ReadKey();
-      Console.WriteLine(" deseas continuar ");
-
-      if (true)
-      {
-
-      }
+      //Console.ReadKey();
+      //Console.WriteLine(" deseas continuar ");
+      //Console.ReadLine();
+      ////if (si)
+      ////{
+      ////  return
+      ////}
+      ////else
+      ////{
+      ////  Console.WriteLine();
+      ////}
     }
 
   }
