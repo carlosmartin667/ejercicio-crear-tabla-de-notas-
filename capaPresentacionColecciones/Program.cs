@@ -86,6 +86,7 @@ namespace Ejercicio5
         }
 
       }
+  
       Console.WriteLine();
       Console.WriteLine("Combinacion: ");
       for (int i = 0; i < menor; i++)
@@ -96,9 +97,48 @@ namespace Ejercicio5
         }
         Console.WriteLine();
       }
-
+      //int sinCombinar = 0;
+      //switch (sinCombinar)
+      //{
+      //  case 0:
+      //    {
+      //      Console.WriteLine();
+      //      Console.Write("Cadena1 sin combinar: [");
+      //      for (int i = menor; i < cadena1.Length; i++)
+      //      {
+      //        Console.Write(cadena1[i] + " ");
+      //      }
+      //      Console.WriteLine("]");
+      //    }
+      
+      //    break;
+      //  case 1:
+      //    {
+      //      Console.WriteLine();
+      //      Console.Write("Cadena2 sin combinar: [");
+      //      for (int i = menor; i < cadena2.Length; i++)
+      //      {
+      //        Console.Write(cadena2[i] + " ");
+      //      }
+      //      Console.WriteLine("]");
+      //      Console.ReadKey();
+      //    }
+      //    break;
+      //  case 2:
+      //    Console.WriteLine();
+      //    Console.Write("Cadena3 sin combinar: [");
+      //    for (int i = menor; i < cadena3.Length; i++)
+      //    {
+      //      Console.Write(cadena3[i] + " ");
+      //    }
+      //    Console.WriteLine("]");
+      //    Console.ReadKey();
+      //    break;
+      //  default:
+      //    break;
+      //}
       Console.WriteLine();
-      Console.Write("C1 sin combinar: [");
+      Console.Write("Cadena1 sin combinar: [");
       for (int i = menor; i < cadena1.Length; i++)
       {
         Console.Write(cadena1[i] + " ");
@@ -106,7 +146,7 @@ namespace Ejercicio5
       Console.WriteLine("]");
 
       Console.WriteLine();
-      Console.Write("C2 sin combinar: [");
+      Console.Write("Cadena2 sin combinar: [");
       for (int i = menor; i < cadena2.Length; i++)
       {
         Console.Write(cadena2[i] + " ");
@@ -114,7 +154,7 @@ namespace Ejercicio5
       Console.WriteLine("]");
 
       Console.WriteLine();
-      Console.Write("C3 sin combinar: [");
+      Console.Write("Cadena3 sin combinar: [");
       for (int i = menor; i < cadena3.Length; i++)
       {
         Console.Write(cadena3[i] + " ");

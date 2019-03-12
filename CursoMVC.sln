@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaPresentacionWindows", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaPresentacionColecciones", "capaPresentacionColecciones\capaPresentacionColecciones.csproj", "{799D20DA-0AFC-4694-8639-CF9C37143962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaPresentacionPorcentaje", "capaPresentacionPorcentaje\capaPresentacionPorcentaje.csproj", "{2C50DBDB-8553-4ED0-A80C-82373CED247E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{799D20DA-0AFC-4694-8639-CF9C37143962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799D20DA-0AFC-4694-8639-CF9C37143962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799D20DA-0AFC-4694-8639-CF9C37143962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C50DBDB-8553-4ED0-A80C-82373CED247E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C50DBDB-8553-4ED0-A80C-82373CED247E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C50DBDB-8553-4ED0-A80C-82373CED247E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C50DBDB-8553-4ED0-A80C-82373CED247E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

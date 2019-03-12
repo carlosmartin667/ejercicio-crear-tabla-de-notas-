@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionPorcentaje\bin\Debug\capaPresentacionPorcentaje.exe.config
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionPorcentaje\bin\Debug\capaPresentacionPorcentaje.exe
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionPorcentaje\bin\Debug\capaPresentacionPorcentaje.pdb
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionPorcentaje\obj\Debug\capaPresentacionPorcentaje.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionPorcentaje\obj\Debug\capaPresentacionPorcentaje.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionPorcentaje\obj\Debug\capaPresentacionPorcentaje.exe
+C:\Users\carloscornejo\Desktop\tarea\capaPresentacionPorcentaje\obj\Debug\capaPresentacionPorcentaje.pdb
