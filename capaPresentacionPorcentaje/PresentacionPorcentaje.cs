@@ -10,31 +10,70 @@ namespace capaPresentacionPorcentaje
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Seleccione las fechas de vencimiento del comprobante:");
-      Console.WriteLine();
-      Console.WriteLine("1 valor del comprobante ");
-      Console.WriteLine("2 valor del comprobante  (15 dias despues de vencer )");
-      Console.WriteLine("3 valor del comprobante  (30 dias despues de vencer )");
-      Console.WriteLine("4 valor del comprobante  (45 dias despues de vencer )");
-      Console.WriteLine("5 valor del comprobante  (60 dias despues de vencer )");
-      Console.WriteLine();
-      Console.Write("VALOR DEL COMPROBANTE :1000 ");
-      Console.WriteLine();
-      Console.WriteLine("escriba 1 , 2 , 3 , 4 , 5 ");
-      String opcion = Console.ReadLine();
-      Console.WriteLine(  );
-    
-      if (opcion.Equals("1") || opcion.Equals("2") || opcion.Equals("3") || opcion.Equals("4") || opcion.Equals("5"))
-      {
-        ReglaDeIntereses ReglaDeIntereses = new ReglaDeIntereses();//Intanciar la clase
 
-        int[,] dfghj = new int[5, 5];
-      
-        //ReglaDeIntereses.valor1 = int.Parse(Console.ReadLine());//Leer numero ingresado
-        int valor1 = 10000;
 
-        ReglaDeIntereses.valor1 = valor1;
+      int[] fecha = new int[90];
+
+
+
+
+
+      DateTime fecha1 = new DateTime();
+      Console.WriteLine("FECHA QUE SE VENCE EL COMPROBANTE");
+      Console.WriteLine("la fecha deve ingresar de la siguiente manera: año mes dia ej: 2000/02/10");
+      Console.WriteLine("escriba la fecha");
+      fecha1 = Convert.ToDateTime(Console.ReadLine());
+
+      Console.WriteLine(fecha1);
+
+      Console.WriteLine("FECHA QUE SE PAGA EL COMPROBANTE ");
+
+      DateTime fecha2 = new DateTime();
+      Console.WriteLine("la fecha deve ingresar de la siguiente manera: año mes dia ej: 2000/02/10");
+      Console.WriteLine("escriba la fecha");
+      fecha1 = Convert.ToDateTime(Console.ReadLine());
+
+      Console.WriteLine(fecha2);
+
+
+     //fechas =  fecha1 - fecha2;
    
+      Console.WriteLine("DIAS QUE AN PASADO DESDE QUE SE VENCIO: ");
+
+
+      DateTime fecharegistro = DateTime.Parse("04/05/2018 8:34:01"); //obtenemos este valor de una bbdd
+      var fechas = (DateTime.Now - fecharegistro).TotalHours;
+
+      Console.WriteLine(fecha);
+
+
+
+
+      //Console.WriteLine("Seleccione las fechas de vencimiento del comprobante:");
+      //Console.WriteLine();
+      //Console.WriteLine("1 valor del comprobante ");
+      //Console.WriteLine("2 valor del comprobante  (15 dias despues de vencer )");
+      //Console.WriteLine("3 valor del comprobante  (30 dias despues de vencer )");
+      //Console.WriteLine("4 valor del comprobante  (45 dias despues de vencer )");
+      //Console.WriteLine("5 valor del comprobante  (60 dias despues de vencer )");
+      //Console.WriteLine();
+      //Console.Write("VALOR DEL COMPROBANTE :1000 ");
+      //Console.WriteLine();
+      //Console.WriteLine("escriba 1 , 2 , 3 , 4 , 5 ");
+      //String opcion = Console.ReadLine();
+      //Console.WriteLine(  );
+
+      //if (opcion.Equals("1") || opcion.Equals("2") || opcion.Equals("3") || opcion.Equals("4") || opcion.Equals("5"))
+      //{
+      //  ReglaDeIntereses ReglaDeIntereses = new ReglaDeIntereses();//Intanciar la clase
+
+      //  int[,] dfghj = new int[5, 5];
+
+      //  //ReglaDeIntereses.valor1 = int.Parse(Console.ReadLine());//Leer numero ingresado
+      //  int valor1 = 10000;
+
+      //  ReglaDeIntereses.valor1 = valor1;
+
 
 
       //  if (opcion.Equals("1"))
