@@ -41,30 +41,11 @@ namespace capaPresentacionPorcentaje
 
       Console.WriteLine();
 
-        ReglaDeIntereses ReglaDeIntereses = new ReglaDeIntereses();//Intanciar la clase
-
-        int[,] dfghj = new int[5, 5];
-
-        //ReglaDeIntereses.valor1 = int.Parse(Console.ReadLine());//Leer numero ingresado
-
+      var recargoServicio = new ReglaDeIntereses();
+      var recargoCobrar = recargoServicio CalcularRecargo(recargo); //Intanciar la clase
       
 
-
-
-
-
-        Console.WriteLine("valor del comprobante :" + ReglaDeIntereses.sinInteres());
-
-        Console.WriteLine("valor del comprobante  (15 dias despues de vencer ) :" + ReglaDeIntereses.interes1());
-
-        Console.WriteLine("valor del comprobante  (30 dias despues de vencer )" + ReglaDeIntereses.interes2());
-
-        Console.WriteLine("valor del comprobante  (45 dias despues de vencer )" + ReglaDeIntereses.interes3());
-
-        Console.WriteLine("valor del comprobante  (60 dias despues de vencer )" + ReglaDeIntereses.interes4());
-
-      
-
+      Console.WriteLine(recargoCobrar);
     }
 
   }
