@@ -29,7 +29,7 @@ namespace capaPresentacionPorcentaje
       
       Console.WriteLine(comprobante.FechaPago);
       Console.WriteLine();
-      int[] fecha = new int[90];
+      
       int dias = (comprobante.FechaPago - comprobante.FechaVencimiento).Days;
       Console.WriteLine(dias);
       Console.WriteLine();
@@ -42,10 +42,10 @@ namespace capaPresentacionPorcentaje
       Console.WriteLine();
 
       var recargoServicio = new ReglaDeIntereses();
-      var recargoCobrar = recargoServicio CalcularRecargo(recargo); //Intanciar la clase
+      var recargoCobrar = recargoServicio.CalcularRecargo(comprobante, dias); //Intanciar la clase
       
 
-      Console.WriteLine(recargoCobrar);
+      Console.WriteLine("valor de comprobante con interes "+recargoCobrar);
     }
 
   }
