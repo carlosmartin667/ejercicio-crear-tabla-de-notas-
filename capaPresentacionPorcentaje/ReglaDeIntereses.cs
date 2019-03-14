@@ -18,12 +18,12 @@ namespace capaPresentacionPorcentaje
       }
       else if (dias <=20)
       {
-        recargo = comprobante.Importe + comprobante.Importe % 10;
+        recargo = comprobante.Importe + (comprobante.Importe * Convert.ToDecimal(0.10));
         // Condition1 is false and Condition2 is true.
       }
       else if (dias <= 30)
       {
-        recargo = comprobante.Importe + comprobante.Importe % 20;
+        recargo = comprobante.Importe + (comprobante.Importe * Convert.ToDecimal(0.20));
         // Condition1 is false and Condition2 is true.
       }
       else if (dias <= 40)
@@ -33,7 +33,7 @@ namespace capaPresentacionPorcentaje
       }
       else if (dias <= 50)
       {
-        recargo = comprobante.Importe + comprobante.Importe % 40;
+        recargo = comprobante.Importe + (comprobante.Importe * Convert.ToDecimal(0.40));
         // Condition1 is false and Condition2 is true.
       }
 

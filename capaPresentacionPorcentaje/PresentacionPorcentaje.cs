@@ -20,9 +20,9 @@ namespace capaPresentacionPorcentaje
 
       Console.WriteLine(comprobante.FechaVencimiento);
       Console.WriteLine();
+
+
       Console.WriteLine("FECHA QUE SE PAGA EL COMPROBANTE ");
-
-
       Console.WriteLine("la fecha deve ingresar de la siguiente manera: año mes dia ej: 2000/02/10");
       Console.WriteLine("escriba la fecha");
       comprobante.FechaPago = Convert.ToDateTime(Console.ReadLine());
