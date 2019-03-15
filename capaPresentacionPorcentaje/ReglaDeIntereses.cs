@@ -1,46 +1,24 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace capaPresentacionPorcentaje
+namespace Comprobantes_
 {
-   public class ReglaDeIntereses
+  public class ReglaDeCalculo
   {
-  public decimal CalcularRecargo (Comprobante comprobante, int dias)
+    public decimal CalcularRecargo(Comprobante comprobante, int dias)
     {
       decimal recargo = 0;
-      if (dias <=10)
+
+      if (dias >= comprobante.DiasPagar)
       {
-        recargo = comprobante.Importe;
-        // Condition1 is true.
-      }
-      else if (dias <=20)
-      {
-        recargo = comprobante.Importe + (comprobante.Importe * Convert.ToDecimal(0.10));
-        // Condition1 is false and Condition2 is true.
-      }
-      else if (dias <= 30)
-      {
-        recargo = comprobante.Importe + (comprobante.Importe * Convert.ToDecimal(0.20));
-        // Condition1 is false and Condition2 is true.
-      }
-      else if (dias <= 40)
-      {
-        recargo = comprobante.Importe + (comprobante.Importe * Convert.ToDecimal(0.30));
-        // Condition1 is false and Condition2 is true.
-      }
-      else if (dias <= 50)
-      {
-        recargo = comprobante.Importe + (comprobante.Importe * Convert.ToDecimal(0.40));
-        // Condition1 is false and Condition2 is true.
+
+        recargo = ((comprobante.InteresAumentado * comprobante.Importe) / 100) + comprobante.Importe;
       }
 
 
       return recargo;
     }
-
 
   }
 }
