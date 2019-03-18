@@ -15,7 +15,10 @@ namespace Comprobantes_
 
         recargo = ((comprobante.InteresAumentado * comprobante.Importe) / 100) + comprobante.Importe;
       }
-
+      else
+      {
+        recargo = comprobante.Importe;
+      }
 
       return recargo;
     }

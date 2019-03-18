@@ -9,9 +9,7 @@ namespace Comprobantes_
     public string TipoDeComprobante { get; set; }
     public string DatosDeCliente { get; set; }
     public DateTime FechaEmision { get; set; }
-    public DateTime Vencimiento1 { get; set; }
-    public DateTime Vencimiento2 { get; set; }
-    public DateTime Vencimiento3 { get; set; }
+
     public DateTime FechaPago { get; set; }
     public string Detalle { get; set; }
     public decimal Importe { get; set; }
