@@ -70,59 +70,63 @@ namespace Comprobantes_
 
       System.Console.Clear();
 
-      //int[] a = new int[ dias];
+      //int[] FechasPagoNoDisponible = new int[dias];
+
+      //for (int i =(int) comprobantes.DiasDeIncrementoDeInteres; i < recargoCobrar; i++)
+      //{
+      //  FechasPagoNoDisponible[i] =i;
+      //}
+
+      //for (int i = 0; i < recargoCobrar; i++)
+      //{
+      //  Console.WriteLine($"FechasPagoNoDisponible[{i + 1}] = {FechasPagoNoDisponible[i]}");
+      //}
+
+      Console.WriteLine();
+      int[] a = new int[dias];
+
       //int[] b = new int[(int)comprobantes.Interes];
+      //int[] d = new int[(int)comprobantes.InteresAumentado];
+
+
       //int[] c = new int[(int)recargoCobrar];
+      //int[] e = new int[(int)comprobantes.Importe];
 
-      //for (int i = 0; i < comprobantes.InteresAumentado; i++)
+      for (int i = 0; i <= dias - 1; i++)
+      {
+        a[i] = i;
+      }
+
+      //for (int i = (int)comprobantes.Interes; i < comprobantes.InteresAumentado  ; i++)
       //{
-      //  a[i] = i ;
+      //  c[i] = i;
       //}
-      //for (int i = 0; i < comprobantes.InteresAumentado; i++)
+
+      //for (int i = (int) comprobantes.Importe; i < (int)recargoCobrar; i++)
       //{
-      //  b[i] = i;
+      //  e[i] = i;
       //}
-      //for (int i = 0; i < comprobantes.InteresAumentado; i++)
+
+
+      for (int i = 0; i <= dias - 1; i++)
+      {
+        Console.WriteLine($"a[{i + 1}] = {a[i]}");
+      }
+      Console.WriteLine();
+
+      //for (int i = 0; i <= comprobantes.InteresAumentado ; i++)
       //{
-      //  Console.Write($"a[{i}] = {a[i]}");
-      //  Console.Write($"b[{i}] = {b[i]}");
+      //  Console.WriteLine($"c[{i + 1}] = {c[i]}");
       //}
-      //int menor = 0;
 
-      //int[,] arr4 = new int[menor, 2];
-      //for (int i = 0; i < menor; i++)
+      //Console.WriteLine();
+      //for (int i = 0; i <= recargoCobrar; i++)
       //{
-      //  for (int j = 0; j < 2; j++)
-      //  {
-
-
-      //    switch (j)
-      //    {
-      //      case 0:
-      //        {
-      //          arr4[i, j] = a[i];
-      //        }
-      //        break;
-      //      case 1:
-      //        {
-      //          arr4[i, j] = b[i];
-      //        }
-      //        break;
-      //      default:
-
-      //        break;
-      //    }
-      //  }
+      //  Console.WriteLine($"e[{i + 1}] = {e[i]}");
       //}
-      //    Console.WriteLine();
-      //    Console.Write("dias donde se iva incrementando : [");
-      //    for (int i = menor; i <= comprobantes.InteresAumentado; i++)
-      //    {
-      //      Console.Write(b[i] + " " + a[i] + " ");
-      //    }
-      //    Console.WriteLine("]");
 
-        
+      //Console.WriteLine();
+
 
 
 
@@ -131,6 +135,7 @@ namespace Comprobantes_
       Console.WriteLine("Detalles de la Factura:" + comprobantes.Detalle);
       Console.WriteLine("fecha de Emision: " + comprobantes.FechaEmision);
       Console.WriteLine("fecha de Pago: " + comprobantes.FechaPago);
+
       Console.WriteLine("Valor de Factura:" + comprobantes.Importe);
       Console.WriteLine("cada " + comprobantes.DiasPagar + "dias aumenta un " + comprobantes.Interes + "%");
       Console.WriteLine("Dias pasados:" + dias);
