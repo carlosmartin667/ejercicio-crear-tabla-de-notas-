@@ -5,23 +5,6 @@ using System.Text;
 
 namespace BusquedaBinaria
 {
-  static void Main(string[] args)
-  {
-    int[] vector;
-    vector = new int[1000];
-    //genero numeros aleatorios
-
-    Random aleatorio = new Random();
-    for (int i = 0; i < 1000; i++)
-    {
-      vector[i] = Convert.ToInt16(aleatorio.Next(3000));
-    }
-    for (int i = 0; i < 1000; i++)
-    {
-      Console.WriteLine(vector[i] + " ");
-    }
-    Console.Read();
-  }
   class Busqueda
   {
     private int[] vector;

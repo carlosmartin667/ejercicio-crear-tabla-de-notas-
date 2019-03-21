@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A93581B2-B471-4910-869D-BA9DD0C083B2}</ProjectGuid>
+    <ProjectGuid>{0EBF4ED8-B3FD-4751-85C6-39413E21855C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BusquedaBinaria</RootNamespace>
-    <AssemblyName>BusquedaBinaria</AssemblyName>
+    <RootNamespace>Binaria2</RootNamespace>
+    <AssemblyName>Binaria2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Datos.cs" />
-    <Compile Include="MetodoBusqueda.cs" />
-    <Compile Include="GenerarNumeros.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
