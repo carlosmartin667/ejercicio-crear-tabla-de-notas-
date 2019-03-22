@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ordenbinario
 {
@@ -10,37 +11,44 @@ namespace ordenbinario
       {
 
         {
+
+          Console.WriteLine("1000 numeros");
+          var numeros = new List<int>();
+
+          while (numeros.Count < 1000)
+          {
+
+            int numeroAleatorio = new Random().Next(1, 3000);
+
+            if (!numeros.Contains(numeroAleatorio))
+            {
+              numeros.Add(numeroAleatorio);
+            }
+          }
           const int n = 1000;
-          int[] datos = new int[n];
+
           int i, j, datoTemporal;
 
-          // Primero generamos datos al azar
-          Console.Write("Generando... ");
-          Random r = new Random();
-          for (i = 0; i < n; i++)
-            datos[i] = r.Next(1, 3000);
-
-          // Luego los ordenamos mediante burbuja
           Console.Write("Ordenando... ");
           for (i = 0; i < n - 1; i++)
           {
             for (j = i + 1; j < n; j++)
             {
-              if (datos[i] > datos[j])
+              if (numeros[i] > numeros[j])
               {
-                datoTemporal = datos[i];
-                datos[i] = datos[j];
-                datos[j] = datoTemporal;
+                datoTemporal = numeros[i];
+                numeros[i] = numeros[j];
+                numeros[j] = datoTemporal;
               }
             }
           }
 
-          foreach (int dato in datos)
-            Console.Write("{0} ", dato);
+          foreach (int numero in numeros)
+            Console.Write("{0} ", numero);
           Console.WriteLine();
 
           //pedimos un numero
-          Console.WriteLine("Ingrese un numero...");
+          Console.WriteLine("Ingrese un numero entre 1 y 3000...");
           int num = int.Parse(Console.ReadLine());
           int valorBuscado = valorBuscado = num;
           Console.WriteLine("Buscando si aparece {0}...", valorBuscado);
@@ -56,21 +64,22 @@ namespace ordenbinario
             Console.WriteLine("Buscando entre pos {0} y {1}, valores {2} y {3}," +
             " centro {4}:{5}",
             limiteInferior, limiteSuperior,
-            datos[limiteInferior], datos[limiteSuperior],
-            puntoMedio, datos[puntoMedio]);
+            numeros[limiteInferior], numeros[limiteSuperior],
+            puntoMedio, numeros[puntoMedio]);
             // Compruebo si hemos acertado
-            if (datos[puntoMedio] == valorBuscado)
+            if (numeros[puntoMedio] == valorBuscado)
             {
-              Console.WriteLine("Encontrado!");
+              Console.WriteLine("Numero Encontrado...");
               terminado = true;
             }
             else if (limiteInferior == limiteSuperior - 1)
             {
-              Console.WriteLine("No encontrado");
+              Console.WriteLine("No encontrado: este numero no existe en este contexto...");
               terminado = true;
             }
+
             // Si no hemos terminado, debemos seguir buscando en una mitad
-            if (datos[puntoMedio] < valorBuscado)
+            if (numeros[puntoMedio] < valorBuscado)
               limiteInferior = puntoMedio;
             else
               limiteSuperior = puntoMedio;
