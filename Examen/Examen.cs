@@ -41,12 +41,25 @@ namespace Examen
       //foreach (int palabra in palabras)
       //  Console.Write("{0} ", palabras);
       //Console.WriteLine();
-      int randomNumber = random.Next(1, 26);
 
+      int randomNumber = random.Next(1, 26);
+      //for (int i = 0; i < 100; i++)
+      //{
+      //  for (int j = 0; j < randomNumber; j++)
+      //  {
+      //    randomString += letras[random.Next(1, 52)].ToString();
+      //    i++;
+      //  }
+      //  Console.WriteLine(randomString);
+      //}
+      Console.WriteLine(randomString);
       for (int j = 0; j < randomNumber; j++)
       {
         randomString += letras[random.Next(1, 52)].ToString();
+    
       }
+      Console.WriteLine("palabra generada aleatoriamente ");
+      //stringArray + randomString;
       Console.WriteLine(randomString);
 
       Console.WriteLine();
@@ -57,6 +70,7 @@ namespace Examen
       {
         PalabraInvertida += randomString[i];
       }
+      Console.WriteLine("palabra escrita al revez");
       Console.WriteLine(PalabraInvertida);
     }
   }
