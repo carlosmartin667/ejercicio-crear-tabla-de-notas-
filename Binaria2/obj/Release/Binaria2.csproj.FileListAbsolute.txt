@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\Binaria2\bin\Release\Binaria2.exe.config
+C:\Users\carloscornejo\Desktop\tarea\Binaria2\bin\Release\Binaria2.exe
+C:\Users\carloscornejo\Desktop\tarea\Binaria2\bin\Release\Binaria2.pdb
+C:\Users\carloscornejo\Desktop\tarea\Binaria2\obj\Release\Binaria2.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\Binaria2\obj\Release\Binaria2.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\Binaria2\obj\Release\Binaria2.exe
+C:\Users\carloscornejo\Desktop\tarea\Binaria2\obj\Release\Binaria2.pdb

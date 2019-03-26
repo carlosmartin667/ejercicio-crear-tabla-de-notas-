@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\Examen\obj\Debug\Examen.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\Examen\obj\Debug\Examen.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\Examen\bin\Debug\Examen.exe.config
+C:\Users\carloscornejo\Desktop\tarea\Examen\bin\Debug\Examen.exe
+C:\Users\carloscornejo\Desktop\tarea\Examen\bin\Debug\Examen.pdb
+C:\Users\carloscornejo\Desktop\tarea\Examen\obj\Debug\Examen.exe
+C:\Users\carloscornejo\Desktop\tarea\Examen\obj\Debug\Examen.pdb
