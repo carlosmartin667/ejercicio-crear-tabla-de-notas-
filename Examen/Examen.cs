@@ -54,11 +54,43 @@ namespace Examen
         num++;
         Console.WriteLine();
       }
-      int Mayuscula = 0;
-      int Minusculas = 0;
 
-      string[] stringArrayMayusculas = new string[Mayuscula];
-      string[] stringArrayMinusculas = new string[Minusculas];
+      string[] Mayuscula  =new string[num];
+      string[] Minusscula = new string[num];
+      string[] TempoaralMayuscula = new string[num];
+      string[] TemporalMinusscula = new string[num];
+
+
+      for (int i = 0; i < num; i++)
+      {
+        if (Char.IsUpper(stringArray[i]))
+        {
+          TempoaralMayuscula[i] = Convert.ToString(stringArray[i]);
+        }
+      }
+      for (int j = 0; j < TempoaralMayuscula.Length; j++)
+      {
+        if (TempoaralMayuscula[j] != null)
+        {
+          Mayuscula[j] = TempoaralMayuscula[j];
+        }
+      }
+
+      for (int i = 0; i < num; i++)
+      {
+        if (Char.IsUpper(stringArray[i]))
+        {
+          TemporalMinusscula[i] = Convert.ToString(stringArray[i]);
+        }
+      }
+      for (int j = 0; j < TemporalMinusscula.Length; j++)
+      {
+        if (TemporalMinusscula[j] != null)
+        {
+          Minusscula[j] = TemporalMinusscula[j];
+        }
+      }
+
       //int randomNumber = random.Next(1, 21);
       //invertir palabra
       //string PalabraInvertida = " ";
