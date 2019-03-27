@@ -44,28 +44,30 @@ namespace Examen
         for (int j = 0; j < Number; j++)
         {
           randomString = letras[random.Next(0, 52)].ToString();
-          //stringArray[j] = letras[random.Next(0, 52)].ToString();
           for (int i = 0; i < 1; i++)
           {
-
             Console.Write(randomString);
+
+            stringArray[num] = randomString;
           }
         }
         num++;
         Console.WriteLine();
       }
+      int Mayuscula = 0;
+      int Minusculas = 0;
 
-      int randomNumber = random.Next(1, 21);
-     
-
-      //invertir palabra 
-      string PalabraInvertida = " ";
-      for (int i = randomString.Length -1; i >= 0; i--)
-      {
-        PalabraInvertida += randomString[i];
-      }
-      Console.WriteLine("palabra escrita al revez");
-      Console.WriteLine(PalabraInvertida);
+      string[] stringArrayMayusculas = new string[Mayuscula];
+      string[] stringArrayMinusculas = new string[Minusculas];
+      //int randomNumber = random.Next(1, 21);
+      //invertir palabra
+      //string PalabraInvertida = " ";
+      //for (int i = randomString.Length - 1; i >= 0; i--)
+      //{
+      //  PalabraInvertida += randomString[i];
+      //}
+      //Console.WriteLine("palabra escrita al revez");
+      //Console.WriteLine(PalabraInvertida);
     }
   }
 }
