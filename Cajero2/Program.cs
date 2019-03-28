@@ -18,6 +18,8 @@ namespace Exmen2
 
       Dinero = float.Parse(linea);
       Console.WriteLine("La Cantidad introducida es: " + Dinero);
+
+      //BILLETES CALCULO
       for (int i = 0; i < 7; i++)
       {
         if ((Dinero >= BILLETESVALOR[i]))
@@ -38,30 +40,18 @@ namespace Exmen2
         }
       }
 
+      //IMPRIMIR BILLETES
       for (int i = 0; i < 7; i++)
       {
-        Console.WriteLine("Billetes de {i }: " + BILLETES[i]);
+        Console.WriteLine("Billetes de " + BILLETESVALOR[i]+ " = "+ BILLETES[i]);
 
       }
-      //Console.WriteLine("Billetes de 500: " + BILLETES[0]);
-      //Console.WriteLine("Billetes de 200: " + BILLETES[1]);
-      //Console.WriteLine("Billetes de 100: " + BILLETES[2]);
-      //Console.WriteLine("Billetes de 50 : " + BILLETES[3]);
-      //Console.WriteLine("Billetes de 20 : " + BILLETES[4]);
-      //Console.WriteLine("Billetes de 10 : " + BILLETES[5]);
-      //Console.WriteLine("Billetes de 5 : "  + BILLETES[6]);
 
+      //IMPRIMIR MONEDAS
       for (int i = 0; i < 5; i++)
       {
-        Console.WriteLine("Monedas de  : " + MONEDAS[i]);
+        Console.WriteLine("Monedas de " + MONEDASVALOR[i] + " = " + MONEDAS[i]);
       }
-
-
-      Console.WriteLine("Monedas de 0,50 : " + MONEDAS[0]);
-      Console.WriteLine("Monedas de 0,25 : " + MONEDAS[1]);
-      Console.WriteLine("Monedas de 0,10 : " + MONEDAS[2]);
-      Console.WriteLine("Monedas de 0,05 : " + MONEDAS[3]);
-      Console.WriteLine("Monedas de 0,01 : " + MONEDAS[4]);
     }
   }
 }
