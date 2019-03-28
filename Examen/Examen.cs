@@ -54,6 +54,8 @@ namespace Examen
         num++;
         Console.WriteLine();
       }
+      Console.WriteLine();
+      Console.WriteLine("----------------------------------------------------------------------------------");
 
       string[] Mayuscula  =new string[num];
       string[] Minusscula = new string[num];
@@ -61,9 +63,9 @@ namespace Examen
       string[] TemporalMinusscula = new string[num];
 
 
-      for (int i = 0; i < num; i++)
+      for (int i = 0; i < 100; i++)
       {
-        if (Char.IsUpper(stringArray[i]))
+        if (Char.IsUpper(Convert.ToChar(stringArray[i])))
         {
           TempoaralMayuscula[i] = Convert.ToString(stringArray[i]);
         }
@@ -76,9 +78,17 @@ namespace Examen
         }
       }
 
+
+      for (int i = 0; i < 1; i++)
+      {
+        Console.WriteLine(Mayuscula[1]);
+      }
+      Console.WriteLine();
+      Console.WriteLine("----------------------------------------------------------------------------------");
+
       for (int i = 0; i < num; i++)
       {
-        if (Char.IsUpper(stringArray[i]))
+        if (Char.IsUpper(Convert.ToChar(stringArray[i])))
         {
           TemporalMinusscula[i] = Convert.ToString(stringArray[i]);
         }
@@ -90,6 +100,13 @@ namespace Examen
           Minusscula[j] = TemporalMinusscula[j];
         }
       }
+
+
+      for (int i = 0; i < 1; i++)
+      {
+        Console.Write(Minusscula[i]);
+      }
+
 
       //int randomNumber = random.Next(1, 21);
       //invertir palabra
