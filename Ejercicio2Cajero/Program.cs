@@ -9,9 +9,10 @@ namespace Exmen2
       float Dinero;
       int C500, C200, C100, C50, C20, C10, C5, D50, D25, D10,D05, D01;
 
+      int[] BILLETES = new int[7];
+      double[] MONEDAS = new double[5];
 
-
-      C500 = 0;
+      BILLETES[0] = 0;
       C200 = 0;
       C100 = 0;
       C50 = 0;
@@ -109,6 +110,44 @@ namespace Exmen2
       Console.WriteLine("Monedas de 0,10 : " + D10);
       Console.WriteLine("Monedas de 0,05 : " + D05);
       Console.WriteLine("Monedas de 0,01 : " + D01);
+    }
+  }
+}
+
+
+namespace ContadorBilletes
+{
+  class Importe
+  {
+    static void Main(string[] args)
+    {
+
+      int CANTIDAD = 0;
+      decimal iva = 0;
+      string linea;
+      Console.Write("DIGITE UNA IMPORTE :"); linea = Console.ReadLine();
+
+      CANTIDAD = int.Parse(linea);
+      double[] P3 = new double[12] { 500, 200, 100, 50, 20, 10, 5, 0.050, 0.025, 0.10, 0.005, 0.001 };
+      int fila = CANTIDAD;
+
+      if (CANTIDAD >= 500)
+      {
+
+        P3[0] = Convert.ToInt32(CANTIDAD / 500);
+        iva = CANTIDAD - (Convert.ToDecimal(P3[0] * 500));
+
+      }
+      decimal VALOR = iva - Convert.ToDecimal(P3[0]);
+      if (VALOR >= 200)
+      {
+
+        P3[1] = Convert.ToInt32(VALOR / 200);
+        VALOR = VALOR - (Convert.ToInt32(P3[1] * 200));
+      }
+      Console.WriteLine("numero1: " + Convert.ToDecimal(P3[0]));
+      Console.WriteLine("numero: " + VALOR);
+
     }
   }
 }
