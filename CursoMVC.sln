@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2Cajero", "Ejercic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cajero2", "Cajero2\Cajero2.csproj", "{4109E341-B560-4C0E-9FE8-EA5FD0571963}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cajero3", "Cajero3\Cajero3.csproj", "{10B8368D-C679-4EA7-92FD-186BE95DECDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{4109E341-B560-4C0E-9FE8-EA5FD0571963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4109E341-B560-4C0E-9FE8-EA5FD0571963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4109E341-B560-4C0E-9FE8-EA5FD0571963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B8368D-C679-4EA7-92FD-186BE95DECDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B8368D-C679-4EA7-92FD-186BE95DECDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B8368D-C679-4EA7-92FD-186BE95DECDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B8368D-C679-4EA7-92FD-186BE95DECDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

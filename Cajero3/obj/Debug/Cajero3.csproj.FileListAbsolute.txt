@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\Cajero3\bin\Debug\Cajero3.exe.config
+C:\Users\carloscornejo\Desktop\tarea\Cajero3\bin\Debug\Cajero3.exe
+C:\Users\carloscornejo\Desktop\tarea\Cajero3\bin\Debug\Cajero3.pdb
+C:\Users\carloscornejo\Desktop\tarea\Cajero3\obj\Debug\Cajero3.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\Cajero3\obj\Debug\Cajero3.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\Cajero3\obj\Debug\Cajero3.exe
+C:\Users\carloscornejo\Desktop\tarea\Cajero3\obj\Debug\Cajero3.pdb
