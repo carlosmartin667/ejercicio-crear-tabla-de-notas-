@@ -8,7 +8,7 @@ namespace Cajero3
 {
   public class MetodoMonedas
   {
-    public decimal CalcularMonedas(Atributos comprobante,float Dinero)
+    public decimal CalcularMonedas(Atributos comprobante)
     {
       decimal monedas = 0;
       for (int i = 0; i < 5; i++)

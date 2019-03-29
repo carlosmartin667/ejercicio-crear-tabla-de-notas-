@@ -25,13 +25,10 @@ namespace Cajero3
       Console.WriteLine("La Cantidad introducida es: " + atributos.Dinero);
 
       var mostrarBilletes = new MetodoBilletes();
-      var imprimirBilletes = mostrarBilletes.CalcularBilletes(atributos.Dinero);
+      var imprimirBilletes = mostrarBilletes.CalcularBilletes(atributos);
 
       var mostrarMonedas = new MetodoMonedas();
-      var imprimirMonedas = mostrarMonedas.CalcularMonedas(atributos.Dinero);
-      Console.WriteLine("Billetes de " + atributos.BILLETESVALOR + " = " + atributos.BILLETES);
-
-      Console.WriteLine("Monedas de " + atributos.MONEDASVALOR + " = " + atributos.MONEDAS);
+      var imprimirMonedas = mostrarMonedas.CalcularMonedas(atributos);
 
     }
   }
