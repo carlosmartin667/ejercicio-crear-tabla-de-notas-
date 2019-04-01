@@ -18,7 +18,7 @@ namespace Ordenamiento
       int menor = 0;
       for (int i = 0; i < 10; i++)
       {
-        Console.Write("escriba 10 numeros:");
+        Console.Write("escriba numeros:");
         linea = Console.ReadLine();
         Numeros[i] = int.Parse(linea);
         Console.WriteLine("La Cantidad introducida es: " + Numeros[i]);
@@ -52,12 +52,15 @@ namespace Ordenamiento
 
       Console.WriteLine("el mayor es " + mayor);
       ////numero menor
+      for (int j = 9; j >= 0; j--) { 
+      
       for (int i = 0; i < Numeros.Length; i++)
       {
-        if (menor >=Numeros[i])
+        if (Numeros[i]<= Numeros[j])
         {
           menor = Numeros[i];
         }
+      }
       }
       Console.WriteLine();
       Console.WriteLine("el menor es " + menor);
