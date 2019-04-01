@@ -25,23 +25,23 @@ namespace Ordenamiento
       }
 
       Console.WriteLine("Los Numeros son");
-      for (int i = 0; i < 10; i++)
+      for (int i = 0; i < Numeros.Length; i++)
       {
         Console.WriteLine("La los numeros que existen son : " + Numeros[i]);
       }
   
       Console.WriteLine("los numeros MOSTRADOS DE forma inversa a la cual fueron cargados");
       Console.WriteLine();
-      for (int i = 0; i < 10; i++)
+      for (int i = 9; i >= 0; i--)
       {
 
-        Console.WriteLine(" los numeros que existen son : " + Numeros[9 - i]);
+        Console.WriteLine(" los numeros que existen son : " + Numeros[i]);
       }
 
 
       Console.WriteLine();
       //numero mayor
-      for (int i = 0; i < 10; i++)
+      for (int i = 0; i < Numeros.Length; i++)
       {
         if (mayor <= Numeros[i])
         {
@@ -52,7 +52,7 @@ namespace Ordenamiento
 
       Console.WriteLine("el mayor es " + mayor);
       ////numero menor
-      for (int i = 0; i < 10; i++)
+      for (int i = 0; i < Numeros.Length; i++)
       {
         if (menor >=Numeros[i])
         {
@@ -63,7 +63,7 @@ namespace Ordenamiento
       Console.WriteLine("el menor es " + menor);
       Console.WriteLine();
       //promedio es
-      for (int i = 0; i < 10; i++)
+      for (int i = 0; i < Numeros.Length; i++)
       {
         promedio +=  Numeros[i];
       }
