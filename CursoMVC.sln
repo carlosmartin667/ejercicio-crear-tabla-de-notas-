@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cajero2", "Cajero2\Cajero2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cajero3", "Cajero3\Cajero3.csproj", "{10B8368D-C679-4EA7-92FD-186BE95DECDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosco", "Kiosco\Kiosco.csproj", "{65E25D0F-0918-40DD-BB0D-423460B2E90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordenamiento", "Ordenamiento\Ordenamiento.csproj", "{D295E02B-3C52-4E97-AD03-85394B78FD6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{10B8368D-C679-4EA7-92FD-186BE95DECDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B8368D-C679-4EA7-92FD-186BE95DECDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B8368D-C679-4EA7-92FD-186BE95DECDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E25D0F-0918-40DD-BB0D-423460B2E90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E25D0F-0918-40DD-BB0D-423460B2E90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E25D0F-0918-40DD-BB0D-423460B2E90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E25D0F-0918-40DD-BB0D-423460B2E90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D295E02B-3C52-4E97-AD03-85394B78FD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D295E02B-3C52-4E97-AD03-85394B78FD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D295E02B-3C52-4E97-AD03-85394B78FD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D295E02B-3C52-4E97-AD03-85394B78FD6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

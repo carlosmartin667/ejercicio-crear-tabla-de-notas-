@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\Ordenamiento\bin\Debug\Ordenamiento.exe.config
+C:\Users\carloscornejo\Desktop\tarea\Ordenamiento\bin\Debug\Ordenamiento.exe
+C:\Users\carloscornejo\Desktop\tarea\Ordenamiento\bin\Debug\Ordenamiento.pdb
+C:\Users\carloscornejo\Desktop\tarea\Ordenamiento\obj\Debug\Ordenamiento.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\Ordenamiento\obj\Debug\Ordenamiento.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\Ordenamiento\obj\Debug\Ordenamiento.exe
+C:\Users\carloscornejo\Desktop\tarea\Ordenamiento\obj\Debug\Ordenamiento.pdb
