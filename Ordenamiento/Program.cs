@@ -13,7 +13,7 @@ namespace Ordenamiento
       //array
       int[] Numeros = new int[10];
       string linea;
-      int promedio = 0;
+      decimal promedio = 0;
       int mayor = 0;
       int menor = 0;
       for (int i = 0; i < 10; i++)
@@ -68,7 +68,6 @@ namespace Ordenamiento
         promedio +=  Numeros[i];
       }
       Console.WriteLine("el promedio es :" +promedio/10);
-
     }
 
   }
