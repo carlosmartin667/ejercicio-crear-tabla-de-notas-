@@ -32,7 +32,7 @@ namespace Ordenamiento
   
       Console.WriteLine("los numeros MOSTRADOS DE forma inversa a la cual fueron cargados");
       Console.WriteLine();
-      for (int i = 9; i >= 0; i--)
+      for (int i = Numeros.Length-1; i >= 0; i--)
       {
 
         Console.WriteLine(" los numeros que existen son : " + Numeros[i]);
@@ -51,23 +51,24 @@ namespace Ordenamiento
       }
 
       Console.WriteLine("el mayor es " + mayor);
-      ////numero menor
-      //for (int j = 9; j >= 0; j--) { 
+      //numero menor
+      for (int j = 9; j >= 0; j--)
+      {
 
-      // for (int i = 0; i < Numeros.Length; i++)
+        for (int i = 0; i < Numeros.Length; i++)
+        {
+          if (Numeros[i] < Numeros[j])
+          {
+            menor = Numeros[i];
+          }
+        }
+      //  for (int i = 0; i < Numeros.Length; i++)
       //{
-      //  if (Numeros[i]< Numeros[j])
+      //  if (Numeros[i] < menor)
       //  {
       //    menor = Numeros[i];
       //  }
-      // }
-      for (int i = 0; i < Numeros.Length; i++)
-      {
-        if (Numeros[i] < menor)
-        {
-          menor = Numeros[i];
-        }
-      }
+      //}
       Console.WriteLine();
       Console.WriteLine("el menor es " + menor);
       Console.WriteLine();
@@ -76,7 +77,7 @@ namespace Ordenamiento
       {
         promedio +=  Numeros[i];
       }
-      Console.WriteLine("el promedio es :" +promedio/10);
+      Console.WriteLine("el promedio es :" +promedio / Numeros.Length);
     }
     
   }
