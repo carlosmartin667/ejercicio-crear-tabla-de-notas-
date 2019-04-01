@@ -11,16 +11,16 @@ namespace Ordenamiento
     static void Main(string[] args)
     {
       //array
-      int[] Numeros = new int[10];
+      double[] Numeros = new double[10];
       string linea;
-      decimal promedio = 0;
-      int mayor = 0;
-      int menor = 0;
+      double promedio = 0;
+      double mayor = 0;
+      double menor = 0;
       for (int i = 0; i < 10; i++)
       {
         Console.Write("escriba numeros:");
         linea = Console.ReadLine();
-        Numeros[i] = int.Parse(linea);
+        Numeros[i] = double.Parse(linea);
         Console.WriteLine("La Cantidad introducida es: " + Numeros[i]);
       }
 
@@ -72,6 +72,6 @@ namespace Ordenamiento
       }
       Console.WriteLine("el promedio es :" +promedio/10);
     }
-
+    
   }
 }
