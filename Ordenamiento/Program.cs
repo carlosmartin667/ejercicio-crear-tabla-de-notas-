@@ -52,15 +52,21 @@ namespace Ordenamiento
 
       Console.WriteLine("el mayor es " + mayor);
       ////numero menor
-      for (int j = 9; j >= 0; j--) { 
-      
-       for (int i = 0; i < Numeros.Length; i++)
+      //for (int j = 9; j >= 0; j--) { 
+
+      // for (int i = 0; i < Numeros.Length; i++)
+      //{
+      //  if (Numeros[i]< Numeros[j])
+      //  {
+      //    menor = Numeros[i];
+      //  }
+      // }
+      for (int i = 0; i < Numeros.Length; i++)
       {
-        if (Numeros[i]< Numeros[j])
+        if (Numeros[i] < menor)
         {
           menor = Numeros[i];
         }
-       }
       }
       Console.WriteLine();
       Console.WriteLine("el menor es " + menor);
