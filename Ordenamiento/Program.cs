@@ -29,20 +29,15 @@ namespace Ordenamiento
       {
         Console.WriteLine("La los numeros que existen son : " + Numeros[i]);
       }
-
-
+  
       Console.WriteLine("los numeros MOSTRADOS DE forma inversa a la cual fueron cargados");
       Console.WriteLine();
-      Console.WriteLine("La los numeros que existen son : " + Numeros[9]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[8]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[7]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[6]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[5]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[4]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[3]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[2]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[1]);
-      Console.WriteLine("La los numeros que existen son : " + Numeros[0]);
+      for (int i = 0; i < 10; i++)
+      {
+
+        Console.WriteLine(" los numeros que existen son : " + Numeros[9 - i]);
+      }
+
 
       Console.WriteLine();
       //numero mayor
@@ -66,6 +61,7 @@ namespace Ordenamiento
       }
       Console.WriteLine();
       Console.WriteLine("el menor es " + menor);
+      Console.WriteLine();
       //promedio es
       for (int i = 0; i < 10; i++)
       {
