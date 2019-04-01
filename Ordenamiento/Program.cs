@@ -27,7 +27,7 @@ namespace Ordenamiento
       Console.WriteLine("Los Numeros son");
       for (int i = 0; i < Numeros.Length; i++)
       {
-        Console.WriteLine("La los numeros que existen son : " + Numeros[i]);
+        Console.WriteLine("los numeros que existen son : " + Numeros[i]);
       }
   
       Console.WriteLine("los numeros MOSTRADOS DE forma inversa a la cual fueron cargados");
@@ -54,13 +54,13 @@ namespace Ordenamiento
       ////numero menor
       for (int j = 9; j >= 0; j--) { 
       
-      for (int i = 0; i < Numeros.Length; i++)
+       for (int i = 0; i < Numeros.Length; i++)
       {
-        if (Numeros[i]<= Numeros[j])
+        if (Numeros[i]< Numeros[j])
         {
           menor = Numeros[i];
         }
-      }
+       }
       }
       Console.WriteLine();
       Console.WriteLine("el menor es " + menor);
