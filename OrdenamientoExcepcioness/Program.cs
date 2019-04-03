@@ -20,7 +20,7 @@ namespace Ordenamiento
         if (!double.TryParse(Console.ReadLine(), out Num))
         {
           Console.WriteLine("Le dije que escriba un numero");
-          i = i - 1;
+          i = i -1;
           continue;
          
         }
@@ -40,7 +40,7 @@ namespace Ordenamiento
         Console.WriteLine(" los numeros que existen son : " + Numeros[i]);
         for (int j = 0; j < Numeros.Length; j++)
         {
-          if (Numeros[j] < Numeros[i])
+          if (Numeros[j] <= Numeros[i])
           {
             menor = Numeros[j];
           }
