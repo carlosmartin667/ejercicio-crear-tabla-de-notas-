@@ -12,17 +12,14 @@ namespace Ordenamiento
       double promedio = 0;
       double mayor = 0;
       double menor =0;
-  
+      Console.WriteLine("introducir 10 numeros");
       for (int i = 0; i < Numeros.Length; i++)
       {
         Console.Write("escriba numeros:");
-
-        if (!double.TryParse(Console.ReadLine(), out Num))
+        while (!double.TryParse(Console.ReadLine(), out Num))
         {
           Console.WriteLine("Le dije que escriba un numero");
-          i = i -1;
           continue;
-         
         }
   Numeros[i] = Num;
         Console.WriteLine("La Cantidad introducida es: " + Numeros[i]);  
