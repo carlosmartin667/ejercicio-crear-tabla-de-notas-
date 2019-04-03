@@ -1,0 +1,11 @@
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\Ipotenusa.deps.json
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\Ipotenusa.runtimeconfig.json
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\Ipotenusa.runtimeconfig.dev.json
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\Ipotenusa.dll
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\Ipotenusa.pdb
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\Ipotenusa.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\Ipotenusa.vbproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\Ipotenusa.AssemblyInfoInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\Ipotenusa.AssemblyInfo.vb
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\Ipotenusa.dll
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\Ipotenusa.pdb

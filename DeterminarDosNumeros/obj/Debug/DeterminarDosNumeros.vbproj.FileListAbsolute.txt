@@ -1,0 +1,11 @@
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\bin\Debug\DeterminarDosNumeros.exe.config
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\bin\Debug\DeterminarDosNumeros.exe
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\bin\Debug\DeterminarDosNumeros.pdb
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\bin\Debug\DeterminarDosNumeros.xml
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\obj\Debug\DeterminarDosNumeros.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\obj\Debug\DeterminarDosNumeros.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\obj\Debug\DeterminarDosNumeros.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\obj\Debug\DeterminarDosNumeros.vbproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\obj\Debug\DeterminarDosNumeros.exe
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\obj\Debug\DeterminarDosNumeros.xml
+C:\Users\carloscornejo\Desktop\tarea\DeterminarDosNumeros\obj\Debug\DeterminarDosNumeros.pdb

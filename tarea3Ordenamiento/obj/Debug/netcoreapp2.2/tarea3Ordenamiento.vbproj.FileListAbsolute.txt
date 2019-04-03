@@ -1,0 +1,11 @@
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\tarea3Ordenamiento.deps.json
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\tarea3Ordenamiento.runtimeconfig.json
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\tarea3Ordenamiento.runtimeconfig.dev.json
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\tarea3Ordenamiento.dll
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\bin\Debug\netcoreapp2.2\tarea3Ordenamiento.pdb
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\tarea3Ordenamiento.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\tarea3Ordenamiento.vbproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\tarea3Ordenamiento.AssemblyInfoInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\tarea3Ordenamiento.AssemblyInfo.vb
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\tarea3Ordenamiento.dll
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\obj\Debug\netcoreapp2.2\tarea3Ordenamiento.pdb

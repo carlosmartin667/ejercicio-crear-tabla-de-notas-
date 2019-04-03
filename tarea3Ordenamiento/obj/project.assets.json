@@ -692,9 +692,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carloscornejo\\Desktop\\tarea\\tarea3Ordenamiento\\tarea3Ordenamiento.vbproj",
-      "projectName": "tarea3Ordenamiento",
-      "projectPath": "C:\\Users\\carloscornejo\\Desktop\\tarea\\tarea3Ordenamiento\\tarea3Ordenamiento.vbproj",
+      "projectUniqueName": "C:\\Users\\carloscornejo\\Desktop\\tarea\\tarea3Ordenamiento\\Ipotenusa.vbproj",
+      "projectName": "Ipotenusa",
+      "projectPath": "C:\\Users\\carloscornejo\\Desktop\\tarea\\tarea3Ordenamiento\\Ipotenusa.vbproj",
       "packagesPath": "C:\\Users\\carloscornejo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\carloscornejo\\Desktop\\tarea\\tarea3Ordenamiento\\obj\\",
       "projectStyle": "PackageReference",

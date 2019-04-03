@@ -1,0 +1,11 @@
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\bin\Debug\DeterminarTresNumeros.exe.config
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\bin\Debug\DeterminarTresNumeros.exe
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\bin\Debug\DeterminarTresNumeros.pdb
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\bin\Debug\DeterminarTresNumeros.xml
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\obj\Debug\DeterminarTresNumeros.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\obj\Debug\DeterminarTresNumeros.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\obj\Debug\DeterminarTresNumeros.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\obj\Debug\DeterminarTresNumeros.vbproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\obj\Debug\DeterminarTresNumeros.exe
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\obj\Debug\DeterminarTresNumeros.xml
+C:\Users\carloscornejo\Desktop\tarea\DeterminarTresNumeros\obj\Debug\DeterminarTresNumeros.pdb

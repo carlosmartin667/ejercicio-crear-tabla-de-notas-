@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\OrdenamientoExcepcioness\bin\Debug\OrdenamientoExcepcioness.exe.config
+C:\Users\carloscornejo\Desktop\tarea\OrdenamientoExcepcioness\bin\Debug\OrdenamientoExcepcioness.exe
+C:\Users\carloscornejo\Desktop\tarea\OrdenamientoExcepcioness\bin\Debug\OrdenamientoExcepcioness.pdb
+C:\Users\carloscornejo\Desktop\tarea\OrdenamientoExcepcioness\obj\Debug\OrdenamientoExcepcioness.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\OrdenamientoExcepcioness\obj\Debug\OrdenamientoExcepcioness.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\OrdenamientoExcepcioness\obj\Debug\OrdenamientoExcepcioness.exe
+C:\Users\carloscornejo\Desktop\tarea\OrdenamientoExcepcioness\obj\Debug\OrdenamientoExcepcioness.pdb

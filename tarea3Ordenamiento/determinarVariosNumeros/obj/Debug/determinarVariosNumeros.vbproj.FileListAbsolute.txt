@@ -1,0 +1,11 @@
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\bin\Debug\determinarVariosNumeros.exe.config
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\bin\Debug\determinarVariosNumeros.exe
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\bin\Debug\determinarVariosNumeros.pdb
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\bin\Debug\determinarVariosNumeros.xml
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\obj\Debug\determinarVariosNumeros.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\obj\Debug\determinarVariosNumeros.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\obj\Debug\determinarVariosNumeros.vbproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\obj\Debug\determinarVariosNumeros.exe
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\obj\Debug\determinarVariosNumeros.xml
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\obj\Debug\determinarVariosNumeros.pdb
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\determinarVariosNumeros\obj\Debug\determinarVariosNumeros.vbprojAssemblyReference.cache

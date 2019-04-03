@@ -16,11 +16,16 @@ namespace Ordenamiento
       double promedio = 0;
       double mayor = 0;
       double menor = 0;
+      double Num = 0;
+      Console.WriteLine("escriba 10 NUMEROS");
       for (int i = 0; i < 10; i++)
       {
-        Console.Write("escriba numeros:");
-        linea = Console.ReadLine();
-        Numeros[i] = double.Parse(linea);
+        if (!double.TryParse(Console.ReadLine(), out Num))
+        {
+          Console.WriteLine("Le dije que escriba un numero");
+          return;
+        }
+        Numeros[i] = Num;
         Console.WriteLine("La Cantidad introducida es: " + Numeros[i]);
       }
 
@@ -37,8 +42,6 @@ namespace Ordenamiento
 
         Console.WriteLine(" los numeros que existen son : " + Numeros[i]);
       }
-
-
       Console.WriteLine();
       //numero mayor
       for (int i = 0; i < Numeros.Length; i++)
@@ -49,7 +52,6 @@ namespace Ordenamiento
    
         }
       }
-
       Console.WriteLine("el mayor es " + mayor);
       //numero menor
       for (int j = 9; j >= 0; j--)
@@ -62,13 +64,7 @@ namespace Ordenamiento
             menor = Numeros[i];
           }
         }
-      //  for (int i = 0; i < Numeros.Length; i++)
-      //{
-      //  if (Numeros[i] < menor)
-      //  {
-      //    menor = Numeros[i];
-      //  }
-      //}
+      }
       Console.WriteLine();
       Console.WriteLine("el menor es " + menor);
       Console.WriteLine();
@@ -79,6 +75,6 @@ namespace Ordenamiento
       }
       Console.WriteLine("el promedio es :" +promedio / Numeros.Length);
     }
-    
+   
   }
 }
