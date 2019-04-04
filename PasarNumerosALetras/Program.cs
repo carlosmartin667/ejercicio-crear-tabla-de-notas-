@@ -93,7 +93,6 @@ namespace PasarNumerosALetras
         }
         for (int i = 0; i < Numeros2digito.Length; i++)
         {
-
           if (Convert.ToInt32(Numeros3digito) == Numeros2digito[i])
           {
             Console.WriteLine(Palabras2digito[i] + mil);
