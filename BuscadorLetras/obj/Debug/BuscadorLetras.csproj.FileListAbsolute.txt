@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\BuscadorLetras\bin\Debug\BuscadorLetras.exe.config
+C:\Users\carloscornejo\Desktop\tarea\BuscadorLetras\bin\Debug\BuscadorLetras.exe
+C:\Users\carloscornejo\Desktop\tarea\BuscadorLetras\bin\Debug\BuscadorLetras.pdb
+C:\Users\carloscornejo\Desktop\tarea\BuscadorLetras\obj\Debug\BuscadorLetras.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\BuscadorLetras\obj\Debug\BuscadorLetras.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\BuscadorLetras\obj\Debug\BuscadorLetras.exe
+C:\Users\carloscornejo\Desktop\tarea\BuscadorLetras\obj\Debug\BuscadorLetras.pdb

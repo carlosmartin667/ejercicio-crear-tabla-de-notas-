@@ -1,0 +1,6 @@
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerosALetras\bin\Debug\PasarNumerosALetras.exe.config
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerosALetras\bin\Debug\PasarNumerosALetras.exe
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerosALetras\bin\Debug\PasarNumerosALetras.pdb
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerosALetras\obj\Debug\PasarNumerosALetras.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerosALetras\obj\Debug\PasarNumerosALetras.exe
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerosALetras\obj\Debug\PasarNumerosALetras.pdb

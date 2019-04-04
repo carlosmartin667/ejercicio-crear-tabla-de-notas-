@@ -1,17 +1,12 @@
 using System;
-
 namespace Ordenamiento
 {
   class Program
   {
     static void Main(string[] args)
     {
-      //array
       double[] Numeros = new double[10];
-      double Num;
-      double promedio = 0;
-      double mayor = 0;
-      double menor =0;
+      double Num,promedio =0,mayor= 0, menor = double.MaxValue;    
       Console.WriteLine("introducir 10 numeros");
       for (int i = 0; i < Numeros.Length; i++)
       {
@@ -27,6 +22,10 @@ namespace Ordenamiento
         {
           mayor = Numeros[i];
         }
+        if (Numeros[i] < menor)
+        {
+          menor = Numeros[i];
+        }
         promedio += Numeros[i];
       }
       Console.WriteLine();
@@ -35,22 +34,12 @@ namespace Ordenamiento
       for (int i = Numeros.Length - 1; i >= 0; i--)
       {
         Console.WriteLine(" los numeros que existen son : " + Numeros[i]);
-        for (int j = 0; j < Numeros.Length; j++)
-        {
-          if (Numeros[j] <= Numeros[i])
-          {
-            menor = Numeros[j];
-          }
-        }
       }
       Console.WriteLine();
-      //numero mayor
       Console.WriteLine("el mayor es " + mayor);
-      //numero menor
       Console.WriteLine();
       Console.WriteLine("el menor es " + menor);
       Console.WriteLine();
-      //promedio es
       Console.WriteLine("el promedio es :" + promedio / Numeros.Length);
     }
   }
