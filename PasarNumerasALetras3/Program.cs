@@ -12,67 +12,89 @@ namespace PasarNumerasALetras3
     {
       double Numero;
       string linea;
-      double[] Numeros1digito = new double[10] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
       double[] Numerosdigito = new double[5] { 11, 12, 13, 14, 15 };
-      double[] Numeros2digito = new double[10] { 00,10, 20, 30, 40, 50, 60, 70, 80, 90 };
-      double[] Numeros3digito = new double[10] { 000, 100, 200, 300, 400, 500, 600, 700, 800, 900 };
-      double[] NumerosdigitoSinCrear = new double[1000];
-      double dosdigito;
-
-      //double[] Numeros3digito = new double[9] { 100, 200, 300, 400, 500, 600, 700, 800, 900 };
+      double[] NumerosdigitoSinCrear = new double[1000000];
       string cien = "ciento";
       string mil = "mil";
       string[] Palabras1digito = new string[10] {  "  ","uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve" };
       string[] Palabrasdigito = new string[5] { "once", "doce", "trece", "catorce", "quince" };
       string[] Palabras2digito = new string[10] {" ", "diez", "viente", "treinta", "cuarenta", "sincuenta", "sesenta", "setenta", "ochenta", "Noventa" };
-    
-        string[] Palabras3digito = new string[10] {" ", "ciento","docientos" ,"trecientos","cuatrociento","quinientos","seiescientos","setecientos","ochocientos","noveciento"} ;
+      string[] Palabras3digito = new string[10] {" ", "ciento","docientos" ,"trecientos","cuatrociento","quinientos","seiescientos","setecientos","ochocientos","noveciento"} ;
+      string[] Palabras4digito = new string[10] { "  ", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve" };
+      string[] Palabras5digito = new string[10] {" ", "diez", "viente", "treinta", "cuarenta", "sincuenta", "sesenta", "setenta", "ochenta", "Noventa" };
+      string[] Palabras6digito = new string[10] { " ", "ciento", "docientos", "trecientos", "cuatrociento", "quinientos", "seiescientos", "setecientos", "ochocientos", "noveciento" };
 
-
-      string[] Palabras2digitoSincrear = new string[1000];
+      string[] Palabras2digitoSincrear = new string[1000000];
 
       Console.Write("Indica una cantidadtidad que desa convertir :");
       linea = Console.ReadLine();
       Numero = float.Parse(linea);
 
       int n = 0;
-
-      for (int x = 0; x < Numeros3digito.Length; x++)
+      for (int i = 0; i < NumerosdigitoSinCrear.Length; i++)
       {
-        for (int j = 0; j < Numeros2digito.Length; j++)
-        {
-          for (int i = 0; i < Numeros1digito.Length; i++)
-          {
-            NumerosdigitoSinCrear[n++] = Numeros3digito[x]+ Numeros2digito[j] + Numeros1digito[i];
-          }
-        }
+        NumerosdigitoSinCrear[i] = n++  ;
       }
       int k = 0;
       string y = " y ";
-      for (int x = 0; x < Palabras3digito.Length; x++)
+      if (Numero > 1000)
       {
-        for (int j = 0; j < Palabras2digito.Length; j++)
+        for (int a = 0; a < Palabras6digito.Length; a++)
         {
-          for (int i = 0; i < Palabras1digito.Length; i++)
+          for (int b = 0; b < Palabras5digito.Length; b++)
           {
-            Palabras2digitoSincrear[k++] = Palabras3digito[x]+" " +Palabras2digito[j] + y + Palabras1digito[i];
+            for (int z = 0; z < Palabras4digito.Length; z++)
+            {
+              for (int x = 0; x < Palabras3digito.Length; x++)
+              {
+                for (int j = 0; j < Palabras2digito.Length; j++)
+                {
+                  for (int i = 0; i < Palabras1digito.Length; i++)
+                  {
+                    Palabras2digitoSincrear[k++] = Palabras6digito[a] + " " + Palabras5digito[b] + " " + Palabras4digito[z] + mil + " " + Palabras3digito[x] + " " + Palabras2digito[j] + y + Palabras1digito[i];
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      else
+      {
+        for (int x = 0; x < Palabras3digito.Length; x++)
+        {
+          for (int j = 0; j < Palabras2digito.Length; j++)
+          {
+            for (int i = 0; i < Palabras1digito.Length; i++)
+            {
+              Palabras2digitoSincrear[k++] = Palabras3digito[x] + " " + Palabras2digito[j] + y + Palabras1digito[i];
+            }
           }
         }
       }
 
-      //---------------//
-   
-      if (Numero > 10 && Numero <= 15)
+      if (Numero > 10 && Numero <= 15 || Numero==0 || Numero==100 || Numero == 100000)
       {
+        if (Numero == 0)
+        {
+          Console.WriteLine("cero");
+        }
+        if (Numero == 100)
+        {
+          Console.WriteLine("cien");
+        }
+        if (Numero == 100000)
+        {
+          Console.WriteLine("cienMil");
+        }
         for (int i = 0; i < Palabrasdigito.Length; i++)
         {
           if (Numero == Numerosdigito[i])
           {
             Console.WriteLine(Palabrasdigito[i]);
           }
-        }
+        } 
       }
-   
       else 
       {
         for (int i = 0; i < NumerosdigitoSinCrear.Length; i++)
