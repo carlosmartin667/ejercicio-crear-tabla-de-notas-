@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerasALetras4\bin\Debug\PasarNumerasALetras4.exe.config
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerasALetras4\bin\Debug\PasarNumerasALetras4.exe
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerasALetras4\bin\Debug\PasarNumerasALetras4.pdb
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerasALetras4\obj\Debug\PasarNumerasALetras4.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerasALetras4\obj\Debug\PasarNumerasALetras4.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerasALetras4\obj\Debug\PasarNumerasALetras4.exe
+C:\Users\carloscornejo\Desktop\tarea\PasarNumerasALetras4\obj\Debug\PasarNumerasALetras4.pdb
