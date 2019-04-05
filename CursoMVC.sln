@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscadorLetras", "BuscadorL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasarNumerosALetras", "PasarNumerosALetras\PasarNumerosALetras.csproj", "{7CB79374-B297-4E56-8A07-4306E2970867}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasarNumerosALetras2", "PasarNumerosALetras2\PasarNumerosALetras2.csproj", "{FAFA255A-DF43-49B2-B09A-BAACCE4DC230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasarNumerasALetras3", "PasarNumerasALetras3\PasarNumerasALetras3.csproj", "{86107733-D76F-4DD7-9787-231D0BD7373C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{7CB79374-B297-4E56-8A07-4306E2970867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CB79374-B297-4E56-8A07-4306E2970867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CB79374-B297-4E56-8A07-4306E2970867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFA255A-DF43-49B2-B09A-BAACCE4DC230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFA255A-DF43-49B2-B09A-BAACCE4DC230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFA255A-DF43-49B2-B09A-BAACCE4DC230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFA255A-DF43-49B2-B09A-BAACCE4DC230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86107733-D76F-4DD7-9787-231D0BD7373C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86107733-D76F-4DD7-9787-231D0BD7373C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86107733-D76F-4DD7-9787-231D0BD7373C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86107733-D76F-4DD7-9787-231D0BD7373C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
