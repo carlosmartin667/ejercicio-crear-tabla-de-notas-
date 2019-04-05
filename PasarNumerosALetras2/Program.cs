@@ -45,32 +45,32 @@ namespace PasarNumerosALetras2
           {
             Console.WriteLine(Palabras2digito[i]);
           }
-          //if (Convert.ToInt32(digitos[j]) == Numeros2digito[i])
-          //{
-          //  Console.WriteLine(Palabras2digito[i] + mil);
-          //}
-          //if (Convert.ToInt32(digitos[j]) == Numeros1digito[i])
-          //{
-          //  Console.WriteLine(Palabras1digito[i] + cien + mil);
-          //}
+          if (Convert.ToInt32(digitos[j]) == Numeros2digito[i])
+          {
+            Console.WriteLine(Palabras2digito[i] + mil);
+          }
+          if (Convert.ToInt32(digitos[j]) == Numeros1digito[i])
+          {
+            Console.WriteLine(Palabras1digito[i] + cien + mil);
+          }
         }
-        //-----------------------------//
+
         for (int i = 0; i < Numeros1digito.Length; i++)
         {
 
-          //if (Convert.ToInt32(digitos[j]) == Numeros1digito[i])
-          //{
-          //  Console.WriteLine(Palabras1digito[i] + cien);
-          //}
+          if (Convert.ToInt32(digitos[j]) == Numeros1digito[i])
+          {
+            Console.WriteLine(Palabras1digito[i] + cien);
+          }
           if (digitos[j] == Numeros1digito[i])
           {
             Console.WriteLine(Palabras1digito[i]);
 
           }
-          //if (Convert.ToInt32(digitos[j]) == Numeros1digito[i])
-          //{
-          //  Console.WriteLine(Palabras1digito[i] + mil);
-          //}
+          if (Convert.ToInt32(digitos[j]) == Numeros1digito[i])
+          {
+            Console.WriteLine(Palabras1digito[i] + mil);
+          }
 
         }
       }
