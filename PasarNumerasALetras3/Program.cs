@@ -83,8 +83,8 @@ namespace PasarNumerasALetras3
       int cantidadexepcion = 111;
       int cantidadexepcion2 = 116;
 
-      
-        for (int x = 1; x < 10; x++)
+
+      for (int x = 1; x < 10; x++)
         {
           for (int i = cantidadexepcion; i < cantidadexepcion2; i++)
           {
@@ -95,7 +95,28 @@ namespace PasarNumerasALetras3
           exepcion = exepcion - 5;
         }
 
+      //int exepcion2 = 0;
+      //int cantidadexepcion3 = 111000;
+      //int cantidadexepcion4 = 116000;
+      //int masMIl = 1000;
 
+      //for (int x = 1; x < 10; x++)
+      //{
+        
+      //  for (int i = cantidadexepcion3; i < cantidadexepcion4; i++)
+      //  {
+      //    Palabras2digitoSincrear[i] = Palabras3digito[x] + " " + Palabrasdigito[exepcion2++] + mil;
+      //    Console.WriteLine();
+      
+      //    if (exepcion2==5)
+      //    {
+      //      exepcion2 = exepcion2 - 5;
+      //      i = 999999;
+      //    }      
+      //  }
+      //  cantidadexepcion3 = cantidadexepcion3 + 1000;
+      //  cantidadexepcion4 = cantidadexepcion4 + 100000;
+      //}
 
       //Console.WriteLine(Palabras2digitoSincrear[915]);
       //esepciones cuando el numero ingresado es un numero raro que no coincide con lo creado anteriormente
