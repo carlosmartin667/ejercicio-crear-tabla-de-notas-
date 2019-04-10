@@ -11,5 +11,13 @@ namespace Herencias
     public string NombreComercial { get; set; }
     public DateTime FechaUltimaCompra { get; set; }
     public int TotalCompras { get; set; }
+
+
+    public override int ObtenerTotal()
+    {
+      TotalCompras = 1000;
+      return TotalCompras;
+    }
+
   }
 }

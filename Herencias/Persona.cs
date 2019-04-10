@@ -14,5 +14,11 @@ namespace Herencias
     public DateTime FechaNacimiento { get; set; }
     public bool EsPersonaFisica { get; set; }
     public int CuitCuil { get; set; }
-  }
+
+    public virtual int ObtenerTotal()
+    {
+      Id = 0;
+      return Id;
+    }
+ }
 }
