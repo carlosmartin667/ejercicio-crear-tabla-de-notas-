@@ -1,0 +1,3 @@
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar\obj\Debug\Sumar.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar\obj\Debug\Sumar1.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar\obj\Debug\Sumar1.vbproj.CoreCompileInputs.cache

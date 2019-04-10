@@ -1,0 +1,11 @@
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\obj\Debug\Sumar5Numeros.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\obj\Debug\Sumar5Numeros.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\obj\Debug\Sumar5Numeros.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\obj\Debug\Sumar5Numeros.vbproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\bin\Debug\Sumar5Numeros.exe.config
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\bin\Debug\Sumar5Numeros.exe
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\bin\Debug\Sumar5Numeros.pdb
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\bin\Debug\Sumar5Numeros.xml
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\obj\Debug\Sumar5Numeros.exe
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\obj\Debug\Sumar5Numeros.xml
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\Sumar5Numeros\obj\Debug\Sumar5Numeros.pdb

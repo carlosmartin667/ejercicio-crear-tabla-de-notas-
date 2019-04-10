@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasarNumerosALetras4", "Pas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasarNumerosALetras5", "PasarNumerosALetras5\PasarNumerosALetras5.csproj", "{DB61BC50-F816-4C1D-B720-2CFD4DBDE15C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herencias", "Herencias\Herencias.csproj", "{AA4FBF41-E219-4410-9AFF-8566490502D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{DB61BC50-F816-4C1D-B720-2CFD4DBDE15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB61BC50-F816-4C1D-B720-2CFD4DBDE15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB61BC50-F816-4C1D-B720-2CFD4DBDE15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4FBF41-E219-4410-9AFF-8566490502D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4FBF41-E219-4410-9AFF-8566490502D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4FBF41-E219-4410-9AFF-8566490502D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4FBF41-E219-4410-9AFF-8566490502D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

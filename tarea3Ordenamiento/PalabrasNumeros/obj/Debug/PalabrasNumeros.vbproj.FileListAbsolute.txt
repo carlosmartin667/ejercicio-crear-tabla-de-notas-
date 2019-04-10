@@ -1,0 +1,4 @@
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\PalabrasNumeros\obj\Debug\PalabrasNumeros.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\PalabrasNumeros\obj\Debug\PalabrasNumeros.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\PalabrasNumeros\obj\Debug\PalabrasNumeros.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\PalabrasNumeros\obj\Debug\PalabrasNumeros.vbproj.CoreCompileInputs.cache
