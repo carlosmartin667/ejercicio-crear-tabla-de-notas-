@@ -12,7 +12,7 @@ namespace Herencias
     public string Nombre { get; set; }
     public string Apellido { get; set; }
     public DateTime FechaNacimiento { get; set; }
-    public string EsPersonaFisica { get; set; }
+    public bool EsPersonaFisica { get; set; }
     public int CuitCuil { get; set; }
   }
 }
