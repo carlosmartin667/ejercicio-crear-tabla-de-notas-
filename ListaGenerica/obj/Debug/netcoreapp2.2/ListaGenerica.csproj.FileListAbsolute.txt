@@ -1,0 +1,11 @@
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\bin\Debug\netcoreapp2.2\ListaGenerica.deps.json
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\bin\Debug\netcoreapp2.2\ListaGenerica.runtimeconfig.json
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\bin\Debug\netcoreapp2.2\ListaGenerica.runtimeconfig.dev.json
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\bin\Debug\netcoreapp2.2\ListaGenerica.dll
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\bin\Debug\netcoreapp2.2\ListaGenerica.pdb
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\obj\Debug\netcoreapp2.2\ListaGenerica.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\obj\Debug\netcoreapp2.2\ListaGenerica.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\obj\Debug\netcoreapp2.2\ListaGenerica.AssemblyInfoInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\obj\Debug\netcoreapp2.2\ListaGenerica.AssemblyInfo.cs
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\obj\Debug\netcoreapp2.2\ListaGenerica.dll
+C:\Users\carloscornejo\Desktop\tarea\ListaGenerica\obj\Debug\netcoreapp2.2\ListaGenerica.pdb

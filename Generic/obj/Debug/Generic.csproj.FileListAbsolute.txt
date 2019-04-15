@@ -1,0 +1,7 @@
+C:\Users\carloscornejo\Desktop\tarea\Generic\bin\Debug\Generic.exe.config
+C:\Users\carloscornejo\Desktop\tarea\Generic\bin\Debug\Generic.exe
+C:\Users\carloscornejo\Desktop\tarea\Generic\bin\Debug\Generic.pdb
+C:\Users\carloscornejo\Desktop\tarea\Generic\obj\Debug\Generic.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\Generic\obj\Debug\Generic.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\Generic\obj\Debug\Generic.exe
+C:\Users\carloscornejo\Desktop\tarea\Generic\obj\Debug\Generic.pdb

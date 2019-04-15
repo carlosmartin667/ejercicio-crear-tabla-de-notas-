@@ -1,0 +1,4 @@
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\CrearNumerosAzar\obj\Debug\CrearNumerosAzar.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\CrearNumerosAzar\obj\Debug\CrearNumerosAzar.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\CrearNumerosAzar\obj\Debug\CrearNumerosAzar.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\CrearNumerosAzar\obj\Debug\CrearNumerosAzar.vbproj.CoreCompileInputs.cache

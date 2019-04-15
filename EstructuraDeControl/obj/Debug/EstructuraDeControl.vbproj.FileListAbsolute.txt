@@ -1,0 +1,11 @@
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\bin\Debug\EstructuraDeControl.exe.config
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\bin\Debug\EstructuraDeControl.exe
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\bin\Debug\EstructuraDeControl.pdb
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\bin\Debug\EstructuraDeControl.xml
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\obj\Debug\EstructuraDeControl.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\obj\Debug\EstructuraDeControl.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\obj\Debug\EstructuraDeControl.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\obj\Debug\EstructuraDeControl.vbproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\obj\Debug\EstructuraDeControl.exe
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\obj\Debug\EstructuraDeControl.xml
+C:\Users\carloscornejo\Desktop\tarea\EstructuraDeControl\obj\Debug\EstructuraDeControl.pdb

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaDatos", "capaDatos\capaDatos.csproj", "{B6994DE8-8CA5-4659-8EF0-57AED7001551}"
 EndProject
@@ -48,6 +48,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasarNumerosALetras5", "PasarNumerosALetras5\PasarNumerosALetras5.csproj", "{DB61BC50-F816-4C1D-B720-2CFD4DBDE15C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herencias", "Herencias\Herencias.csproj", "{AA4FBF41-E219-4410-9AFF-8566490502D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaGenerica", "ListaGenerica\ListaGenerica.csproj", "{731FC715-7C50-4D1A-AFD6-96FE0A0330EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{AA4FBF41-E219-4410-9AFF-8566490502D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA4FBF41-E219-4410-9AFF-8566490502D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA4FBF41-E219-4410-9AFF-8566490502D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731FC715-7C50-4D1A-AFD6-96FE0A0330EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731FC715-7C50-4D1A-AFD6-96FE0A0330EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731FC715-7C50-4D1A-AFD6-96FE0A0330EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731FC715-7C50-4D1A-AFD6-96FE0A0330EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

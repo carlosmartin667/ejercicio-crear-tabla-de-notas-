@@ -1,0 +1,4 @@
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\ConsoleApp2\obj\Debug\ConsoleApp2.vbprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\ConsoleApp2\obj\Debug\ConsoleApp2.Resources.resources
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.GenerateResource.cache
+C:\Users\carloscornejo\Desktop\tarea\tarea3Ordenamiento\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.CoreCompileInputs.cache

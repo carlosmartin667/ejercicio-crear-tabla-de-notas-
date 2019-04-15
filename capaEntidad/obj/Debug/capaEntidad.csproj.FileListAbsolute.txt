@@ -1,0 +1,6 @@
+C:\Users\carloscornejo\Desktop\tarea\capaEntidad\bin\Debug\capaEntidad.dll
+C:\Users\carloscornejo\Desktop\tarea\capaEntidad\bin\Debug\capaEntidad.pdb
+C:\Users\carloscornejo\Desktop\tarea\capaEntidad\obj\Debug\capaEntidad.csprojAssemblyReference.cache
+C:\Users\carloscornejo\Desktop\tarea\capaEntidad\obj\Debug\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\carloscornejo\Desktop\tarea\capaEntidad\obj\Debug\capaEntidad.dll
+C:\Users\carloscornejo\Desktop\tarea\capaEntidad\obj\Debug\capaEntidad.pdb
