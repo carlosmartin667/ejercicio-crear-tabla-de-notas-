@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ListaGenerica
 {
@@ -7,6 +7,7 @@ namespace ListaGenerica
     static void Main(string[] args)
     {
       Console.WriteLine("Hello World!");
+      Console.WriteLine("probando repo");
     }
   }
 }
